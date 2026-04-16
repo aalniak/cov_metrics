@@ -1,0 +1,130 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Browse covariance experiment folders and inspect plot images in a polished, GitHub Pages-ready gallery."
+    >
+    <meta name="theme-color" content="#efe8df">
+    <title>Covariance Viewer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="brand-block">
+          <p class="eyebrow">GitHub Pages Image Browser</p>
+          <h1 class="brand-title">Covariance <span>Viewer</span></h1>
+        </div>
+        <p class="brand-copy">
+          Select a folder, skim the plots, and open any image in a focused fullscreen lightbox.
+        </p>
+      </header>
+
+      <main class="workspace">
+        <aside class="folder-panel" aria-label="Folder navigation">
+          <div class="panel-heading">
+            <p class="eyebrow">Experiment Sets</p>
+            <p class="panel-copy">Each folder becomes a dedicated gallery view.</p>
+          </div>
+
+          <div id="folderList" class="folder-list" aria-live="polite"></div>
+
+          <div class="panel-note">
+            <p class="note-label">Tips</p>
+            <p>Use the search field to narrow plot names.</p>
+            <p>Use left and right arrow keys in the lightbox to move between images.</p>
+          </div>
+        </aside>
+
+        <section class="gallery-panel" aria-label="Image gallery">
+          <div class="gallery-topbar">
+            <div class="gallery-copy">
+              <p id="folderCaption" class="eyebrow">Loading manifest</p>
+              <h2 id="folderTitle" class="gallery-title">Preparing gallery...</h2>
+            </div>
+
+            <label class="search-field" for="searchInput">
+              <span>Filter plots</span>
+              <input
+                id="searchInput"
+                type="search"
+                placeholder="Search by file or title"
+                autocomplete="off"
+              >
+            </label>
+          </div>
+
+          <div class="gallery-metrics" aria-label="Gallery metrics">
+            <div class="metric">
+              <strong id="visibleCount">0</strong>
+              <span>Visible images</span>
+            </div>
+            <div class="metric">
+              <strong id="folderCount">0</strong>
+              <span>Folders</span>
+            </div>
+            <div class="metric">
+              <strong id="totalCount">0</strong>
+              <span>Total plots</span>
+            </div>
+          </div>
+
+          <div id="statusMessage" class="status-message" role="status">
+            Loading gallery data...
+          </div>
+
+          <div id="galleryGrid" class="gallery-grid" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
+    <div id="lightbox" class="lightbox hidden" aria-hidden="true">
+      <div class="lightbox-backdrop" data-close-lightbox="true"></div>
+
+      <div class="lightbox-shell" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+        <button id="closeLightbox" class="lightbox-close" type="button" aria-label="Close image view">
+          Close
+        </button>
+
+        <button id="prevImage" class="lightbox-nav lightbox-nav-left" type="button" aria-label="Previous image">
+          <span aria-hidden="true">‹</span>
+        </button>
+
+        <figure class="lightbox-figure">
+          <img id="lightboxImage" alt="">
+          <figcaption class="lightbox-meta">
+            <div>
+              <p id="lightboxFolder" class="eyebrow">Folder</p>
+              <h3 id="lightboxTitle" class="lightbox-title">Image title</h3>
+            </div>
+            <div class="lightbox-actions">
+              <a id="openOriginal" href="#" target="_blank" rel="noreferrer">Open original</a>
+              <span id="lightboxIndex">1 / 1</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <button id="nextImage" class="lightbox-nav lightbox-nav-right" type="button" aria-label="Next image">
+          <span aria-hidden="true">›</span>
+        </button>
+      </div>
+    </div>
+
+    <noscript>
+      <div class="no-script">
+        This viewer needs JavaScript enabled so it can read the generated manifest and build the gallery.
+      </div>
+    </noscript>
+
+    <script src="app.js"></script>
+  </body>
+</html>
