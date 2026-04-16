@@ -118,7 +118,7 @@ input {
 
 .workspace {
   display: grid;
-  grid-template-columns: minmax(260px, 300px) minmax(0, 1fr);
+  grid-template-columns: clamp(340px, 32vw, 460px) minmax(0, 1fr);
   gap: 20px;
 }
 
@@ -200,7 +200,7 @@ input {
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  align-items: center;
+  align-items: flex-start;
   font-size: 1rem;
   font-weight: 600;
 }
@@ -208,6 +208,8 @@ input {
 .folder-button-title code {
   font-family: "Space Grotesk", "Segoe UI", sans-serif;
   font-size: 1rem;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .folder-button small {
@@ -359,7 +361,7 @@ input {
 
 .thumb-art {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   min-height: 240px;
   padding: 10px;
@@ -422,7 +424,7 @@ input {
   grid-template-columns: auto minmax(0, 1fr) auto;
   gap: 16px;
   width: min(1400px, 100%);
-  align-items: center;
+  align-items: flex-start;
 }
 
 .lightbox-figure {
@@ -460,7 +462,7 @@ input {
 .lightbox-actions {
   display: flex;
   gap: 14px;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   color: var(--muted);
 }
@@ -586,3 +588,4 @@ input {
     max-height: calc(100svh - 240px);
   }
 }
+
