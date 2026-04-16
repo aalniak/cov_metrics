@@ -7,6 +7,13 @@
   lightboxIndex: -1,
 };
 
+const folderDisplayNames = {
+  sfh: "spot_forest_hard",
+  sibl: "spot_indoor_building_loop",
+  sodpsl: "spot_outdoor_day_penno_short_loop",
+  sods: "spot_outdoor_day_skatepark_1",
+};
+
 const elements = {
   folderList: document.getElementById("folderList"),
   folderCaption: document.getElementById("folderCaption"),
@@ -28,6 +35,10 @@ const elements = {
   nextImage: document.getElementById("nextImage"),
 };
 
+function getFolderLabel(folderName) {
+  return folderDisplayNames[folderName] || folderName;
+}
+
 function formatTitle(fileName) {
   const baseName = fileName.replace(/\.[^.]+$/, "");
   const cleaned = baseName.replace(/^\d+[_-]?/, "").replace(/[_-]+/g, " ").trim();
@@ -44,7 +55,7 @@ function folderDescription(folder) {
   }
 
   const firstImage = formatTitle(folder.images[0].file);
-  return `${folder.images.length} plots, starting with ${firstImage}`;
+  return `${folder.images.length} plots in ${getFolderLabel(folder.name)}, starting with ${firstImage}`;
 }
 
 function parseHash() {
@@ -93,7 +104,7 @@ function renderFolders() {
 
     const title = document.createElement("div");
     title.className = "folder-button-title";
-    title.innerHTML = `<code>${folder.name}</code><span class="folder-count">${folder.images.length}</span>`;
+    title.innerHTML = `<code>${getFolderLabel(folder.name)}</code><span class="folder-count">${folder.images.length}</span>`;
 
     const description = document.createElement("small");
     description.textContent = folderDescription(folder);
@@ -130,8 +141,9 @@ function renderGallery() {
 
   state.visibleImages = visibleImages;
   elements.visibleCount.textContent = String(visibleImages.length);
-  elements.folderCaption.textContent = `${selectedFolder.images.length} plots inside ${selectedFolder.name}`;
-  elements.folderTitle.textContent = `${selectedFolder.name} gallery`;
+  const folderLabel = getFolderLabel(selectedFolder.name);
+  elements.folderCaption.textContent = `${selectedFolder.images.length} plots inside ${folderLabel}`;
+  elements.folderTitle.textContent = `${folderLabel} gallery`;
 
   if (!visibleImages.length) {
     elements.galleryGrid.innerHTML = "";
@@ -139,7 +151,7 @@ function renderGallery() {
     return;
   }
 
-  setStatus(`Showing ${visibleImages.length} image${visibleImages.length === 1 ? "" : "s"} from ${selectedFolder.name}.`);
+  setStatus(`Showing ${visibleImages.length} image${visibleImages.length === 1 ? "" : "s"} from ${folderLabel}.`);
   elements.galleryGrid.innerHTML = "";
 
   visibleImages.forEach((image, index) => {
@@ -181,7 +193,7 @@ function openLightbox(index) {
   state.lightboxIndex = index;
   elements.lightboxImage.src = image.path;
   elements.lightboxImage.alt = formatTitle(image.file);
-  elements.lightboxFolder.textContent = state.selectedFolder.name;
+  elements.lightboxFolder.textContent = getFolderLabel(state.selectedFolder.name);
   elements.lightboxTitle.textContent = formatTitle(image.file);
   elements.openOriginal.href = image.path;
   elements.lightboxIndex.textContent = `${index + 1} / ${state.visibleImages.length}`;
