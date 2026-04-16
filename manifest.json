@@ -1,2137 +1,251 @@
 ﻿{
-    "generatedAt":  "2026-04-16T19:18:09.6928071+03:00",
+    "generatedAt":  "2026-04-16T19:52:12.4589568+03:00",
     "totals":  {
-                   "folders":  5,
-                   "images":  420
+                   "folders":  4,
+                   "images":  44
                },
     "folders":  [
                     {
                         "name":  "sfh",
-                        "count":  84,
+                        "count":  11,
                         "images":  [
-                                       {
-                                           "file":  "00_correlation_summary.png",
-                                           "path":  "sfh/00_correlation_summary.png",
-                                           "size":  266001
-                                       },
-                                       {
-                                           "file":  "01_reproj_error_mean.png",
-                                           "path":  "sfh/01_reproj_error_mean.png",
-                                           "size":  310604
-                                       },
                                        {
                                            "file":  "02_reproj_error_median.png",
                                            "path":  "sfh/02_reproj_error_median.png",
-                                           "size":  365849
+                                           "size":  405865
                                        },
                                        {
                                            "file":  "03_feature_lifetime_mean.png",
                                            "path":  "sfh/03_feature_lifetime_mean.png",
-                                           "size":  408745
+                                           "size":  424726
                                        },
                                        {
                                            "file":  "04_feature_lifetime_median.png",
                                            "path":  "sfh/04_feature_lifetime_median.png",
-                                           "size":  429105
-                                       },
-                                       {
-                                           "file":  "05_num_tracked_features.png",
-                                           "path":  "sfh/05_num_tracked_features.png",
-                                           "size":  350981
-                                       },
-                                       {
-                                           "file":  "06_num_new_features.png",
-                                           "path":  "sfh/06_num_new_features.png",
-                                           "size":  443288
-                                       },
-                                       {
-                                           "file":  "07_survival_rate.png",
-                                           "path":  "sfh/07_survival_rate.png",
-                                           "size":  341083
-                                       },
-                                       {
-                                           "file":  "08_parallax_avg.png",
-                                           "path":  "sfh/08_parallax_avg.png",
-                                           "size":  373901
-                                       },
-                                       {
-                                           "file":  "09_imu_bias_acc_norm.png",
-                                           "path":  "sfh/09_imu_bias_acc_norm.png",
-                                           "size":  301777
-                                       },
-                                       {
-                                           "file":  "10_imu_bias_gyr_norm.png",
-                                           "path":  "sfh/10_imu_bias_gyr_norm.png",
-                                           "size":  390452
-                                       },
-                                       {
-                                           "file":  "11_optical_flow_mean.png",
-                                           "path":  "sfh/11_optical_flow_mean.png",
-                                           "size":  499706
-                                       },
-                                       {
-                                           "file":  "12_optical_flow_median.png",
-                                           "path":  "sfh/12_optical_flow_median.png",
-                                           "size":  471568
-                                       },
-                                       {
-                                           "file":  "13_depth_mean.png",
-                                           "path":  "sfh/13_depth_mean.png",
-                                           "size":  364698
-                                       },
-                                       {
-                                           "file":  "14_depth_variance.png",
-                                           "path":  "sfh/14_depth_variance.png",
-                                           "size":  288715
-                                       },
-                                       {
-                                           "file":  "15_num_triangulated.png",
-                                           "path":  "sfh/15_num_triangulated.png",
-                                           "size":  405882
-                                       },
-                                       {
-                                           "file":  "16_solver_initial_cost.png",
-                                           "path":  "sfh/16_solver_initial_cost.png",
-                                           "size":  367631
-                                       },
-                                       {
-                                           "file":  "17_solver_final_cost.png",
-                                           "path":  "sfh/17_solver_final_cost.png",
-                                           "size":  350031
-                                       },
-                                       {
-                                           "file":  "18_solver_iterations.png",
-                                           "path":  "sfh/18_solver_iterations.png",
-                                           "size":  364259
-                                       },
-                                       {
-                                           "file":  "19_solver_converged.png",
-                                           "path":  "sfh/19_solver_converged.png",
-                                           "size":  377734
-                                       },
-                                       {
-                                           "file":  "20_solver_time_ms.png",
-                                           "path":  "sfh/20_solver_time_ms.png",
-                                           "size":  445870
+                                           "size":  400732
                                        },
                                        {
                                            "file":  "21_marginalization_factor_cost.png",
                                            "path":  "sfh/21_marginalization_factor_cost.png",
-                                           "size":  362310
+                                           "size":  338641
                                        },
                                        {
                                            "file":  "22_imu_factor_cost.png",
                                            "path":  "sfh/22_imu_factor_cost.png",
-                                           "size":  437545
+                                           "size":  430729
                                        },
                                        {
                                            "file":  "23_visual_factor_cost.png",
                                            "path":  "sfh/23_visual_factor_cost.png",
-                                           "size":  374461
+                                           "size":  477105
                                        },
                                        {
                                            "file":  "24_visual_factor_count.png",
                                            "path":  "sfh/24_visual_factor_count.png",
-                                           "size":  350702
+                                           "size":  350463
                                        },
                                        {
                                            "file":  "25_visual_factor_cost_avg.png",
                                            "path":  "sfh/25_visual_factor_cost_avg.png",
-                                           "size":  333738
+                                           "size":  444245
                                        },
                                        {
                                            "file":  "26_imu_preint_cov_trace_mean.png",
                                            "path":  "sfh/26_imu_preint_cov_trace_mean.png",
-                                           "size":  338691
+                                           "size":  330441
                                        },
                                        {
                                            "file":  "27_imu_preint_cov_trace_latest.png",
                                            "path":  "sfh/27_imu_preint_cov_trace_latest.png",
-                                           "size":  354016
+                                           "size":  372491
                                        },
                                        {
                                            "file":  "28_visual_meas_cov_trace.png",
                                            "path":  "sfh/28_visual_meas_cov_trace.png",
-                                           "size":  308696
-                                       },
-                                       {
-                                           "file":  "29_imu_visual_pos_disagreement.png",
-                                           "path":  "sfh/29_imu_visual_pos_disagreement.png",
-                                           "size":  394985
-                                       },
-                                       {
-                                           "file":  "30_imu_visual_vel_disagreement.png",
-                                           "path":  "sfh/30_imu_visual_vel_disagreement.png",
-                                           "size":  430127
-                                       },
-                                       {
-                                           "file":  "31_cov_marginal.png",
-                                           "path":  "sfh/31_cov_marginal.png",
-                                           "size":  516031
-                                       },
-                                       {
-                                           "file":  "32_cov_pos_x.png",
-                                           "path":  "sfh/32_cov_pos_x.png",
-                                           "size":  468229
-                                       },
-                                       {
-                                           "file":  "33_cov_pos_y.png",
-                                           "path":  "sfh/33_cov_pos_y.png",
-                                           "size":  434234
-                                       },
-                                       {
-                                           "file":  "34_cov_pos_z.png",
-                                           "path":  "sfh/34_cov_pos_z.png",
-                                           "size":  423861
-                                       },
-                                       {
-                                           "file":  "35_cov_pos_trace.png",
-                                           "path":  "sfh/35_cov_pos_trace.png",
-                                           "size":  455215
-                                       },
-                                       {
-                                           "file":  "36_cov_rot_x.png",
-                                           "path":  "sfh/36_cov_rot_x.png",
-                                           "size":  418117
-                                       },
-                                       {
-                                           "file":  "37_cov_rot_y.png",
-                                           "path":  "sfh/37_cov_rot_y.png",
-                                           "size":  404002
-                                       },
-                                       {
-                                           "file":  "38_cov_rot_z.png",
-                                           "path":  "sfh/38_cov_rot_z.png",
-                                           "size":  402822
-                                       },
-                                       {
-                                           "file":  "39_cov_rot_trace.png",
-                                           "path":  "sfh/39_cov_rot_trace.png",
-                                           "size":  393453
-                                       },
-                                       {
-                                           "file":  "40_cov_vel_x.png",
-                                           "path":  "sfh/40_cov_vel_x.png",
-                                           "size":  419590
-                                       },
-                                       {
-                                           "file":  "41_cov_vel_y.png",
-                                           "path":  "sfh/41_cov_vel_y.png",
-                                           "size":  439160
-                                       },
-                                       {
-                                           "file":  "42_cov_vel_z.png",
-                                           "path":  "sfh/42_cov_vel_z.png",
-                                           "size":  419031
-                                       },
-                                       {
-                                           "file":  "43_cov_vel_trace.png",
-                                           "path":  "sfh/43_cov_vel_trace.png",
-                                           "size":  428682
-                                       },
-                                       {
-                                           "file":  "44_cov_ba_x.png",
-                                           "path":  "sfh/44_cov_ba_x.png",
-                                           "size":  371300
-                                       },
-                                       {
-                                           "file":  "45_cov_ba_y.png",
-                                           "path":  "sfh/45_cov_ba_y.png",
-                                           "size":  403284
-                                       },
-                                       {
-                                           "file":  "46_cov_ba_z.png",
-                                           "path":  "sfh/46_cov_ba_z.png",
-                                           "size":  366201
-                                       },
-                                       {
-                                           "file":  "47_cov_ba_trace.png",
-                                           "path":  "sfh/47_cov_ba_trace.png",
-                                           "size":  366298
-                                       },
-                                       {
-                                           "file":  "48_cov_bg_x.png",
-                                           "path":  "sfh/48_cov_bg_x.png",
-                                           "size":  404462
-                                       },
-                                       {
-                                           "file":  "49_cov_bg_y.png",
-                                           "path":  "sfh/49_cov_bg_y.png",
-                                           "size":  409031
-                                       },
-                                       {
-                                           "file":  "50_cov_bg_z.png",
-                                           "path":  "sfh/50_cov_bg_z.png",
-                                           "size":  400251
-                                       },
-                                       {
-                                           "file":  "51_cov_bg_trace.png",
-                                           "path":  "sfh/51_cov_bg_trace.png",
-                                           "size":  418720
-                                       },
-                                       {
-                                           "file":  "marginal_01_cov_pos_x.png",
-                                           "path":  "sfh/marginal_01_cov_pos_x.png",
-                                           "size":  364114
-                                       },
-                                       {
-                                           "file":  "marginal_02_cov_pos_y.png",
-                                           "path":  "sfh/marginal_02_cov_pos_y.png",
-                                           "size":  359102
-                                       },
-                                       {
-                                           "file":  "marginal_03_cov_pos_z.png",
-                                           "path":  "sfh/marginal_03_cov_pos_z.png",
-                                           "size":  365196
-                                       },
-                                       {
-                                           "file":  "marginal_04_cov_pos_trace.png",
-                                           "path":  "sfh/marginal_04_cov_pos_trace.png",
-                                           "size":  365939
-                                       },
-                                       {
-                                           "file":  "marginal_05_cov_rot_x.png",
-                                           "path":  "sfh/marginal_05_cov_rot_x.png",
-                                           "size":  359036
-                                       },
-                                       {
-                                           "file":  "marginal_06_cov_rot_y.png",
-                                           "path":  "sfh/marginal_06_cov_rot_y.png",
-                                           "size":  290621
-                                       },
-                                       {
-                                           "file":  "marginal_07_cov_rot_z.png",
-                                           "path":  "sfh/marginal_07_cov_rot_z.png",
-                                           "size":  351246
-                                       },
-                                       {
-                                           "file":  "marginal_08_cov_rot_trace.png",
-                                           "path":  "sfh/marginal_08_cov_rot_trace.png",
-                                           "size":  294970
-                                       },
-                                       {
-                                           "file":  "marginal_09_cov_vel_x.png",
-                                           "path":  "sfh/marginal_09_cov_vel_x.png",
-                                           "size":  368788
-                                       },
-                                       {
-                                           "file":  "marginal_10_cov_vel_y.png",
-                                           "path":  "sfh/marginal_10_cov_vel_y.png",
-                                           "size":  349190
-                                       },
-                                       {
-                                           "file":  "marginal_11_cov_vel_z.png",
-                                           "path":  "sfh/marginal_11_cov_vel_z.png",
-                                           "size":  360038
-                                       },
-                                       {
-                                           "file":  "marginal_12_cov_vel_trace.png",
-                                           "path":  "sfh/marginal_12_cov_vel_trace.png",
-                                           "size":  360309
-                                       },
-                                       {
-                                           "file":  "marginal_13_cov_ba_x.png",
-                                           "path":  "sfh/marginal_13_cov_ba_x.png",
-                                           "size":  300009
-                                       },
-                                       {
-                                           "file":  "marginal_14_cov_ba_y.png",
-                                           "path":  "sfh/marginal_14_cov_ba_y.png",
-                                           "size":  315664
-                                       },
-                                       {
-                                           "file":  "marginal_15_cov_ba_z.png",
-                                           "path":  "sfh/marginal_15_cov_ba_z.png",
-                                           "size":  299155
-                                       },
-                                       {
-                                           "file":  "marginal_16_cov_ba_trace.png",
-                                           "path":  "sfh/marginal_16_cov_ba_trace.png",
-                                           "size":  296350
-                                       },
-                                       {
-                                           "file":  "marginal_17_cov_bg_x.png",
-                                           "path":  "sfh/marginal_17_cov_bg_x.png",
-                                           "size":  313507
-                                       },
-                                       {
-                                           "file":  "marginal_18_cov_bg_y.png",
-                                           "path":  "sfh/marginal_18_cov_bg_y.png",
-                                           "size":  315323
-                                       },
-                                       {
-                                           "file":  "marginal_19_cov_bg_z.png",
-                                           "path":  "sfh/marginal_19_cov_bg_z.png",
-                                           "size":  313607
-                                       },
-                                       {
-                                           "file":  "marginal_20_cov_bg_trace.png",
-                                           "path":  "sfh/marginal_20_cov_bg_trace.png",
-                                           "size":  314513
-                                       },
-                                       {
-                                           "file":  "scatter_01_solver_converged.png",
-                                           "path":  "sfh/scatter_01_solver_converged.png",
-                                           "size":  92225
-                                       },
-                                       {
-                                           "file":  "scatter_02_num_triangulated.png",
-                                           "path":  "sfh/scatter_02_num_triangulated.png",
-                                           "size":  126862
-                                       },
-                                       {
-                                           "file":  "scatter_03_imu_factor_cost.png",
-                                           "path":  "sfh/scatter_03_imu_factor_cost.png",
-                                           "size":  118797
-                                       },
-                                       {
-                                           "file":  "scatter_04_depth_mean.png",
-                                           "path":  "sfh/scatter_04_depth_mean.png",
-                                           "size":  117415
-                                       },
-                                       {
-                                           "file":  "scatter_05_solver_iterations.png",
-                                           "path":  "sfh/scatter_05_solver_iterations.png",
-                                           "size":  102584
-                                       },
-                                       {
-                                           "file":  "scatter_06_cov_pos_x.png",
-                                           "path":  "sfh/scatter_06_cov_pos_x.png",
-                                           "size":  112052
-                                       },
-                                       {
-                                           "file":  "scatter_07_cov_pos_y.png",
-                                           "path":  "sfh/scatter_07_cov_pos_y.png",
-                                           "size":  114045
-                                       },
-                                       {
-                                           "file":  "scatter_08_cov_pos_trace.png",
-                                           "path":  "sfh/scatter_08_cov_pos_trace.png",
-                                           "size":  113823
-                                       },
-                                       {
-                                           "file":  "scatter_09_cov_vel_y.png",
-                                           "path":  "sfh/scatter_09_cov_vel_y.png",
-                                           "size":  110320
-                                       },
-                                       {
-                                           "file":  "scatter_10_visual_factor_cost.png",
-                                           "path":  "sfh/scatter_10_visual_factor_cost.png",
-                                           "size":  113396
-                                       },
-                                       {
-                                           "file":  "scatter_11_marginalization_factor_cost.png",
-                                           "path":  "sfh/scatter_11_marginalization_factor_cost.png",
-                                           "size":  113596
-                                       },
-                                       {
-                                           "file":  "scatter_12_cov_vel_x.png",
-                                           "path":  "sfh/scatter_12_cov_vel_x.png",
-                                           "size":  110128
-                                       }
-                                   ]
-                    },
-                    {
-                        "name":  "sfr1",
-                        "count":  84,
-                        "images":  [
-                                       {
-                                           "file":  "00_correlation_summary.png",
-                                           "path":  "sfr1/00_correlation_summary.png",
-                                           "size":  266584
-                                       },
-                                       {
-                                           "file":  "01_reproj_error_mean.png",
-                                           "path":  "sfr1/01_reproj_error_mean.png",
-                                           "size":  355249
-                                       },
-                                       {
-                                           "file":  "02_reproj_error_median.png",
-                                           "path":  "sfr1/02_reproj_error_median.png",
-                                           "size":  413866
-                                       },
-                                       {
-                                           "file":  "03_feature_lifetime_mean.png",
-                                           "path":  "sfr1/03_feature_lifetime_mean.png",
-                                           "size":  364997
-                                       },
-                                       {
-                                           "file":  "04_feature_lifetime_median.png",
-                                           "path":  "sfr1/04_feature_lifetime_median.png",
-                                           "size":  378805
-                                       },
-                                       {
-                                           "file":  "05_num_tracked_features.png",
-                                           "path":  "sfr1/05_num_tracked_features.png",
-                                           "size":  360725
-                                       },
-                                       {
-                                           "file":  "06_num_new_features.png",
-                                           "path":  "sfr1/06_num_new_features.png",
-                                           "size":  425185
-                                       },
-                                       {
-                                           "file":  "07_survival_rate.png",
-                                           "path":  "sfr1/07_survival_rate.png",
-                                           "size":  350769
-                                       },
-                                       {
-                                           "file":  "08_parallax_avg.png",
-                                           "path":  "sfr1/08_parallax_avg.png",
-                                           "size":  400315
-                                       },
-                                       {
-                                           "file":  "09_imu_bias_acc_norm.png",
-                                           "path":  "sfr1/09_imu_bias_acc_norm.png",
-                                           "size":  280802
-                                       },
-                                       {
-                                           "file":  "10_imu_bias_gyr_norm.png",
-                                           "path":  "sfr1/10_imu_bias_gyr_norm.png",
-                                           "size":  417456
-                                       },
-                                       {
-                                           "file":  "11_optical_flow_mean.png",
-                                           "path":  "sfr1/11_optical_flow_mean.png",
-                                           "size":  448365
-                                       },
-                                       {
-                                           "file":  "12_optical_flow_median.png",
-                                           "path":  "sfr1/12_optical_flow_median.png",
-                                           "size":  478449
-                                       },
-                                       {
-                                           "file":  "13_depth_mean.png",
-                                           "path":  "sfr1/13_depth_mean.png",
-                                           "size":  351066
-                                       },
-                                       {
-                                           "file":  "14_depth_variance.png",
-                                           "path":  "sfr1/14_depth_variance.png",
-                                           "size":  315783
-                                       },
-                                       {
-                                           "file":  "15_num_triangulated.png",
-                                           "path":  "sfr1/15_num_triangulated.png",
-                                           "size":  423836
-                                       },
-                                       {
-                                           "file":  "16_solver_initial_cost.png",
-                                           "path":  "sfr1/16_solver_initial_cost.png",
-                                           "size":  353969
-                                       },
-                                       {
-                                           "file":  "17_solver_final_cost.png",
-                                           "path":  "sfr1/17_solver_final_cost.png",
-                                           "size":  338051
-                                       },
-                                       {
-                                           "file":  "18_solver_iterations.png",
-                                           "path":  "sfr1/18_solver_iterations.png",
-                                           "size":  438685
-                                       },
-                                       {
-                                           "file":  "19_solver_converged.png",
-                                           "path":  "sfr1/19_solver_converged.png",
-                                           "size":  399445
-                                       },
-                                       {
-                                           "file":  "20_solver_time_ms.png",
-                                           "path":  "sfr1/20_solver_time_ms.png",
-                                           "size":  422872
-                                       },
-                                       {
-                                           "file":  "21_marginalization_factor_cost.png",
-                                           "path":  "sfr1/21_marginalization_factor_cost.png",
-                                           "size":  339740
-                                       },
-                                       {
-                                           "file":  "22_imu_factor_cost.png",
-                                           "path":  "sfr1/22_imu_factor_cost.png",
-                                           "size":  396491
-                                       },
-                                       {
-                                           "file":  "23_visual_factor_cost.png",
-                                           "path":  "sfr1/23_visual_factor_cost.png",
-                                           "size":  383897
-                                       },
-                                       {
-                                           "file":  "24_visual_factor_count.png",
-                                           "path":  "sfr1/24_visual_factor_count.png",
-                                           "size":  367899
-                                       },
-                                       {
-                                           "file":  "25_visual_factor_cost_avg.png",
-                                           "path":  "sfr1/25_visual_factor_cost_avg.png",
-                                           "size":  411598
-                                       },
-                                       {
-                                           "file":  "26_imu_preint_cov_trace_mean.png",
-                                           "path":  "sfr1/26_imu_preint_cov_trace_mean.png",
-                                           "size":  317723
-                                       },
-                                       {
-                                           "file":  "27_imu_preint_cov_trace_latest.png",
-                                           "path":  "sfr1/27_imu_preint_cov_trace_latest.png",
-                                           "size":  374174
-                                       },
-                                       {
-                                           "file":  "28_visual_meas_cov_trace.png",
-                                           "path":  "sfr1/28_visual_meas_cov_trace.png",
-                                           "size":  297274
-                                       },
-                                       {
-                                           "file":  "29_imu_visual_pos_disagreement.png",
-                                           "path":  "sfr1/29_imu_visual_pos_disagreement.png",
-                                           "size":  453135
-                                       },
-                                       {
-                                           "file":  "30_imu_visual_vel_disagreement.png",
-                                           "path":  "sfr1/30_imu_visual_vel_disagreement.png",
-                                           "size":  448039
-                                       },
-                                       {
-                                           "file":  "31_cov_marginal.png",
-                                           "path":  "sfr1/31_cov_marginal.png",
-                                           "size":  625959
-                                       },
-                                       {
-                                           "file":  "32_cov_pos_x.png",
-                                           "path":  "sfr1/32_cov_pos_x.png",
-                                           "size":  457319
-                                       },
-                                       {
-                                           "file":  "33_cov_pos_y.png",
-                                           "path":  "sfr1/33_cov_pos_y.png",
-                                           "size":  458866
-                                       },
-                                       {
-                                           "file":  "34_cov_pos_z.png",
-                                           "path":  "sfr1/34_cov_pos_z.png",
-                                           "size":  512932
-                                       },
-                                       {
-                                           "file":  "35_cov_pos_trace.png",
-                                           "path":  "sfr1/35_cov_pos_trace.png",
-                                           "size":  466351
-                                       },
-                                       {
-                                           "file":  "36_cov_rot_x.png",
-                                           "path":  "sfr1/36_cov_rot_x.png",
-                                           "size":  453610
-                                       },
-                                       {
-                                           "file":  "37_cov_rot_y.png",
-                                           "path":  "sfr1/37_cov_rot_y.png",
-                                           "size":  518577
-                                       },
-                                       {
-                                           "file":  "38_cov_rot_z.png",
-                                           "path":  "sfr1/38_cov_rot_z.png",
-                                           "size":  469374
-                                       },
-                                       {
-                                           "file":  "39_cov_rot_trace.png",
-                                           "path":  "sfr1/39_cov_rot_trace.png",
-                                           "size":  520280
-                                       },
-                                       {
-                                           "file":  "40_cov_vel_x.png",
-                                           "path":  "sfr1/40_cov_vel_x.png",
-                                           "size":  506392
-                                       },
-                                       {
-                                           "file":  "41_cov_vel_y.png",
-                                           "path":  "sfr1/41_cov_vel_y.png",
-                                           "size":  532015
-                                       },
-                                       {
-                                           "file":  "42_cov_vel_z.png",
-                                           "path":  "sfr1/42_cov_vel_z.png",
-                                           "size":  532316
-                                       },
-                                       {
-                                           "file":  "43_cov_vel_trace.png",
-                                           "path":  "sfr1/43_cov_vel_trace.png",
-                                           "size":  528695
-                                       },
-                                       {
-                                           "file":  "44_cov_ba_x.png",
-                                           "path":  "sfr1/44_cov_ba_x.png",
-                                           "size":  466528
-                                       },
-                                       {
-                                           "file":  "45_cov_ba_y.png",
-                                           "path":  "sfr1/45_cov_ba_y.png",
-                                           "size":  479518
-                                       },
-                                       {
-                                           "file":  "46_cov_ba_z.png",
-                                           "path":  "sfr1/46_cov_ba_z.png",
-                                           "size":  445283
-                                       },
-                                       {
-                                           "file":  "47_cov_ba_trace.png",
-                                           "path":  "sfr1/47_cov_ba_trace.png",
-                                           "size":  464148
-                                       },
-                                       {
-                                           "file":  "48_cov_bg_x.png",
-                                           "path":  "sfr1/48_cov_bg_x.png",
-                                           "size":  471123
-                                       },
-                                       {
-                                           "file":  "49_cov_bg_y.png",
-                                           "path":  "sfr1/49_cov_bg_y.png",
-                                           "size":  473348
-                                       },
-                                       {
-                                           "file":  "50_cov_bg_z.png",
-                                           "path":  "sfr1/50_cov_bg_z.png",
-                                           "size":  469201
-                                       },
-                                       {
-                                           "file":  "51_cov_bg_trace.png",
-                                           "path":  "sfr1/51_cov_bg_trace.png",
-                                           "size":  497410
-                                       },
-                                       {
-                                           "file":  "marginal_01_cov_pos_x.png",
-                                           "path":  "sfr1/marginal_01_cov_pos_x.png",
-                                           "size":  329311
-                                       },
-                                       {
-                                           "file":  "marginal_02_cov_pos_y.png",
-                                           "path":  "sfr1/marginal_02_cov_pos_y.png",
-                                           "size":  332615
-                                       },
-                                       {
-                                           "file":  "marginal_03_cov_pos_z.png",
-                                           "path":  "sfr1/marginal_03_cov_pos_z.png",
-                                           "size":  345285
-                                       },
-                                       {
-                                           "file":  "marginal_04_cov_pos_trace.png",
-                                           "path":  "sfr1/marginal_04_cov_pos_trace.png",
-                                           "size":  338160
-                                       },
-                                       {
-                                           "file":  "marginal_05_cov_rot_x.png",
-                                           "path":  "sfr1/marginal_05_cov_rot_x.png",
-                                           "size":  334003
-                                       },
-                                       {
-                                           "file":  "marginal_06_cov_rot_y.png",
-                                           "path":  "sfr1/marginal_06_cov_rot_y.png",
-                                           "size":  301572
-                                       },
-                                       {
-                                           "file":  "marginal_07_cov_rot_z.png",
-                                           "path":  "sfr1/marginal_07_cov_rot_z.png",
-                                           "size":  324378
-                                       },
-                                       {
-                                           "file":  "marginal_08_cov_rot_trace.png",
-                                           "path":  "sfr1/marginal_08_cov_rot_trace.png",
-                                           "size":  303120
-                                       },
-                                       {
-                                           "file":  "marginal_09_cov_vel_x.png",
-                                           "path":  "sfr1/marginal_09_cov_vel_x.png",
-                                           "size":  334626
-                                       },
-                                       {
-                                           "file":  "marginal_10_cov_vel_y.png",
-                                           "path":  "sfr1/marginal_10_cov_vel_y.png",
-                                           "size":  338181
-                                       },
-                                       {
-                                           "file":  "marginal_11_cov_vel_z.png",
-                                           "path":  "sfr1/marginal_11_cov_vel_z.png",
-                                           "size":  334578
-                                       },
-                                       {
-                                           "file":  "marginal_12_cov_vel_trace.png",
-                                           "path":  "sfr1/marginal_12_cov_vel_trace.png",
-                                           "size":  344769
-                                       },
-                                       {
-                                           "file":  "marginal_13_cov_ba_x.png",
-                                           "path":  "sfr1/marginal_13_cov_ba_x.png",
-                                           "size":  296137
-                                       },
-                                       {
-                                           "file":  "marginal_14_cov_ba_y.png",
-                                           "path":  "sfr1/marginal_14_cov_ba_y.png",
-                                           "size":  297866
-                                       },
-                                       {
-                                           "file":  "marginal_15_cov_ba_z.png",
-                                           "path":  "sfr1/marginal_15_cov_ba_z.png",
-                                           "size":  305151
-                                       },
-                                       {
-                                           "file":  "marginal_16_cov_ba_trace.png",
-                                           "path":  "sfr1/marginal_16_cov_ba_trace.png",
-                                           "size":  315850
-                                       },
-                                       {
-                                           "file":  "marginal_17_cov_bg_x.png",
-                                           "path":  "sfr1/marginal_17_cov_bg_x.png",
-                                           "size":  283198
-                                       },
-                                       {
-                                           "file":  "marginal_18_cov_bg_y.png",
-                                           "path":  "sfr1/marginal_18_cov_bg_y.png",
-                                           "size":  283280
-                                       },
-                                       {
-                                           "file":  "marginal_19_cov_bg_z.png",
-                                           "path":  "sfr1/marginal_19_cov_bg_z.png",
-                                           "size":  282427
-                                       },
-                                       {
-                                           "file":  "marginal_20_cov_bg_trace.png",
-                                           "path":  "sfr1/marginal_20_cov_bg_trace.png",
-                                           "size":  299554
-                                       },
-                                       {
-                                           "file":  "scatter_01_num_new_features.png",
-                                           "path":  "sfr1/scatter_01_num_new_features.png",
-                                           "size":  142889
-                                       },
-                                       {
-                                           "file":  "scatter_02_solver_converged.png",
-                                           "path":  "sfr1/scatter_02_solver_converged.png",
-                                           "size":  105489
-                                       },
-                                       {
-                                           "file":  "scatter_03_num_tracked_features.png",
-                                           "path":  "sfr1/scatter_03_num_tracked_features.png",
-                                           "size":  129277
-                                       },
-                                       {
-                                           "file":  "scatter_04_survival_rate.png",
-                                           "path":  "sfr1/scatter_04_survival_rate.png",
-                                           "size":  125786
-                                       },
-                                       {
-                                           "file":  "scatter_05_cov_pos_trace.png",
-                                           "path":  "sfr1/scatter_05_cov_pos_trace.png",
-                                           "size":  124228
-                                       },
-                                       {
-                                           "file":  "scatter_06_imu_factor_cost.png",
-                                           "path":  "sfr1/scatter_06_imu_factor_cost.png",
-                                           "size":  142693
-                                       },
-                                       {
-                                           "file":  "scatter_07_solver_iterations.png",
-                                           "path":  "sfr1/scatter_07_solver_iterations.png",
-                                           "size":  119950
-                                       },
-                                       {
-                                           "file":  "scatter_08_depth_variance.png",
-                                           "path":  "sfr1/scatter_08_depth_variance.png",
-                                           "size":  105425
-                                       },
-                                       {
-                                           "file":  "scatter_09_reproj_error_mean.png",
-                                           "path":  "sfr1/scatter_09_reproj_error_mean.png",
-                                           "size":  138067
-                                       },
-                                       {
-                                           "file":  "scatter_10_optical_flow_median.png",
-                                           "path":  "sfr1/scatter_10_optical_flow_median.png",
-                                           "size":  143953
-                                       },
-                                       {
-                                           "file":  "scatter_11_visual_factor_cost_avg.png",
-                                           "path":  "sfr1/scatter_11_visual_factor_cost_avg.png",
-                                           "size":  144878
-                                       },
-                                       {
-                                           "file":  "scatter_12_visual_factor_cost.png",
-                                           "path":  "sfr1/scatter_12_visual_factor_cost.png",
-                                           "size":  141755
+                                           "size":  265175
                                        }
                                    ]
                     },
                     {
                         "name":  "sibl",
-                        "count":  84,
+                        "count":  11,
                         "images":  [
-                                       {
-                                           "file":  "00_correlation_summary.png",
-                                           "path":  "sibl/00_correlation_summary.png",
-                                           "size":  265907
-                                       },
-                                       {
-                                           "file":  "01_reproj_error_mean.png",
-                                           "path":  "sibl/01_reproj_error_mean.png",
-                                           "size":  403649
-                                       },
                                        {
                                            "file":  "02_reproj_error_median.png",
                                            "path":  "sibl/02_reproj_error_median.png",
-                                           "size":  385267
+                                           "size":  436525
                                        },
                                        {
                                            "file":  "03_feature_lifetime_mean.png",
                                            "path":  "sibl/03_feature_lifetime_mean.png",
-                                           "size":  382629
+                                           "size":  435887
                                        },
                                        {
                                            "file":  "04_feature_lifetime_median.png",
                                            "path":  "sibl/04_feature_lifetime_median.png",
-                                           "size":  355923
-                                       },
-                                       {
-                                           "file":  "05_num_tracked_features.png",
-                                           "path":  "sibl/05_num_tracked_features.png",
-                                           "size":  339134
-                                       },
-                                       {
-                                           "file":  "06_num_new_features.png",
-                                           "path":  "sibl/06_num_new_features.png",
-                                           "size":  397653
-                                       },
-                                       {
-                                           "file":  "07_survival_rate.png",
-                                           "path":  "sibl/07_survival_rate.png",
-                                           "size":  333793
-                                       },
-                                       {
-                                           "file":  "08_parallax_avg.png",
-                                           "path":  "sibl/08_parallax_avg.png",
-                                           "size":  416020
-                                       },
-                                       {
-                                           "file":  "09_imu_bias_acc_norm.png",
-                                           "path":  "sibl/09_imu_bias_acc_norm.png",
-                                           "size":  311860
-                                       },
-                                       {
-                                           "file":  "10_imu_bias_gyr_norm.png",
-                                           "path":  "sibl/10_imu_bias_gyr_norm.png",
-                                           "size":  388867
-                                       },
-                                       {
-                                           "file":  "11_optical_flow_mean.png",
-                                           "path":  "sibl/11_optical_flow_mean.png",
-                                           "size":  452493
-                                       },
-                                       {
-                                           "file":  "12_optical_flow_median.png",
-                                           "path":  "sibl/12_optical_flow_median.png",
-                                           "size":  443775
-                                       },
-                                       {
-                                           "file":  "13_depth_mean.png",
-                                           "path":  "sibl/13_depth_mean.png",
-                                           "size":  364377
-                                       },
-                                       {
-                                           "file":  "14_depth_variance.png",
-                                           "path":  "sibl/14_depth_variance.png",
-                                           "size":  311465
-                                       },
-                                       {
-                                           "file":  "15_num_triangulated.png",
-                                           "path":  "sibl/15_num_triangulated.png",
-                                           "size":  371921
-                                       },
-                                       {
-                                           "file":  "16_solver_initial_cost.png",
-                                           "path":  "sibl/16_solver_initial_cost.png",
-                                           "size":  344061
-                                       },
-                                       {
-                                           "file":  "17_solver_final_cost.png",
-                                           "path":  "sibl/17_solver_final_cost.png",
-                                           "size":  332341
-                                       },
-                                       {
-                                           "file":  "18_solver_iterations.png",
-                                           "path":  "sibl/18_solver_iterations.png",
-                                           "size":  388899
-                                       },
-                                       {
-                                           "file":  "19_solver_converged.png",
-                                           "path":  "sibl/19_solver_converged.png",
-                                           "size":  361492
-                                       },
-                                       {
-                                           "file":  "20_solver_time_ms.png",
-                                           "path":  "sibl/20_solver_time_ms.png",
-                                           "size":  434668
+                                           "size":  413703
                                        },
                                        {
                                            "file":  "21_marginalization_factor_cost.png",
                                            "path":  "sibl/21_marginalization_factor_cost.png",
-                                           "size":  348707
+                                           "size":  374787
                                        },
                                        {
                                            "file":  "22_imu_factor_cost.png",
                                            "path":  "sibl/22_imu_factor_cost.png",
-                                           "size":  436611
+                                           "size":  501465
                                        },
                                        {
                                            "file":  "23_visual_factor_cost.png",
                                            "path":  "sibl/23_visual_factor_cost.png",
-                                           "size":  409622
+                                           "size":  462285
                                        },
                                        {
                                            "file":  "24_visual_factor_count.png",
                                            "path":  "sibl/24_visual_factor_count.png",
-                                           "size":  337888
+                                           "size":  380324
                                        },
                                        {
                                            "file":  "25_visual_factor_cost_avg.png",
                                            "path":  "sibl/25_visual_factor_cost_avg.png",
-                                           "size":  420172
+                                           "size":  478187
                                        },
                                        {
                                            "file":  "26_imu_preint_cov_trace_mean.png",
                                            "path":  "sibl/26_imu_preint_cov_trace_mean.png",
-                                           "size":  408392
+                                           "size":  437823
                                        },
                                        {
                                            "file":  "27_imu_preint_cov_trace_latest.png",
                                            "path":  "sibl/27_imu_preint_cov_trace_latest.png",
-                                           "size":  328043
+                                           "size":  407686
                                        },
                                        {
                                            "file":  "28_visual_meas_cov_trace.png",
                                            "path":  "sibl/28_visual_meas_cov_trace.png",
-                                           "size":  296497
-                                       },
-                                       {
-                                           "file":  "29_imu_visual_pos_disagreement.png",
-                                           "path":  "sibl/29_imu_visual_pos_disagreement.png",
-                                           "size":  490129
-                                       },
-                                       {
-                                           "file":  "30_imu_visual_vel_disagreement.png",
-                                           "path":  "sibl/30_imu_visual_vel_disagreement.png",
-                                           "size":  477904
-                                       },
-                                       {
-                                           "file":  "31_cov_marginal.png",
-                                           "path":  "sibl/31_cov_marginal.png",
-                                           "size":  523317
-                                       },
-                                       {
-                                           "file":  "32_cov_pos_x.png",
-                                           "path":  "sibl/32_cov_pos_x.png",
-                                           "size":  442860
-                                       },
-                                       {
-                                           "file":  "33_cov_pos_y.png",
-                                           "path":  "sibl/33_cov_pos_y.png",
-                                           "size":  480533
-                                       },
-                                       {
-                                           "file":  "34_cov_pos_z.png",
-                                           "path":  "sibl/34_cov_pos_z.png",
-                                           "size":  445502
-                                       },
-                                       {
-                                           "file":  "35_cov_pos_trace.png",
-                                           "path":  "sibl/35_cov_pos_trace.png",
-                                           "size":  479360
-                                       },
-                                       {
-                                           "file":  "36_cov_rot_x.png",
-                                           "path":  "sibl/36_cov_rot_x.png",
-                                           "size":  396800
-                                       },
-                                       {
-                                           "file":  "37_cov_rot_y.png",
-                                           "path":  "sibl/37_cov_rot_y.png",
-                                           "size":  430213
-                                       },
-                                       {
-                                           "file":  "38_cov_rot_z.png",
-                                           "path":  "sibl/38_cov_rot_z.png",
-                                           "size":  409448
-                                       },
-                                       {
-                                           "file":  "39_cov_rot_trace.png",
-                                           "path":  "sibl/39_cov_rot_trace.png",
-                                           "size":  437522
-                                       },
-                                       {
-                                           "file":  "40_cov_vel_x.png",
-                                           "path":  "sibl/40_cov_vel_x.png",
-                                           "size":  425357
-                                       },
-                                       {
-                                           "file":  "41_cov_vel_y.png",
-                                           "path":  "sibl/41_cov_vel_y.png",
-                                           "size":  425822
-                                       },
-                                       {
-                                           "file":  "42_cov_vel_z.png",
-                                           "path":  "sibl/42_cov_vel_z.png",
-                                           "size":  447945
-                                       },
-                                       {
-                                           "file":  "43_cov_vel_trace.png",
-                                           "path":  "sibl/43_cov_vel_trace.png",
-                                           "size":  445147
-                                       },
-                                       {
-                                           "file":  "44_cov_ba_x.png",
-                                           "path":  "sibl/44_cov_ba_x.png",
-                                           "size":  379206
-                                       },
-                                       {
-                                           "file":  "45_cov_ba_y.png",
-                                           "path":  "sibl/45_cov_ba_y.png",
-                                           "size":  425160
-                                       },
-                                       {
-                                           "file":  "46_cov_ba_z.png",
-                                           "path":  "sibl/46_cov_ba_z.png",
-                                           "size":  380213
-                                       },
-                                       {
-                                           "file":  "47_cov_ba_trace.png",
-                                           "path":  "sibl/47_cov_ba_trace.png",
-                                           "size":  384743
-                                       },
-                                       {
-                                           "file":  "48_cov_bg_x.png",
-                                           "path":  "sibl/48_cov_bg_x.png",
-                                           "size":  428008
-                                       },
-                                       {
-                                           "file":  "49_cov_bg_y.png",
-                                           "path":  "sibl/49_cov_bg_y.png",
-                                           "size":  429726
-                                       },
-                                       {
-                                           "file":  "50_cov_bg_z.png",
-                                           "path":  "sibl/50_cov_bg_z.png",
-                                           "size":  424621
-                                       },
-                                       {
-                                           "file":  "51_cov_bg_trace.png",
-                                           "path":  "sibl/51_cov_bg_trace.png",
-                                           "size":  430484
-                                       },
-                                       {
-                                           "file":  "marginal_01_cov_pos_x.png",
-                                           "path":  "sibl/marginal_01_cov_pos_x.png",
-                                           "size":  340675
-                                       },
-                                       {
-                                           "file":  "marginal_02_cov_pos_y.png",
-                                           "path":  "sibl/marginal_02_cov_pos_y.png",
-                                           "size":  344939
-                                       },
-                                       {
-                                           "file":  "marginal_03_cov_pos_z.png",
-                                           "path":  "sibl/marginal_03_cov_pos_z.png",
-                                           "size":  332538
-                                       },
-                                       {
-                                           "file":  "marginal_04_cov_pos_trace.png",
-                                           "path":  "sibl/marginal_04_cov_pos_trace.png",
-                                           "size":  339303
-                                       },
-                                       {
-                                           "file":  "marginal_05_cov_rot_x.png",
-                                           "path":  "sibl/marginal_05_cov_rot_x.png",
-                                           "size":  323069
-                                       },
-                                       {
-                                           "file":  "marginal_06_cov_rot_y.png",
-                                           "path":  "sibl/marginal_06_cov_rot_y.png",
-                                           "size":  303619
-                                       },
-                                       {
-                                           "file":  "marginal_07_cov_rot_z.png",
-                                           "path":  "sibl/marginal_07_cov_rot_z.png",
-                                           "size":  323390
-                                       },
-                                       {
-                                           "file":  "marginal_08_cov_rot_trace.png",
-                                           "path":  "sibl/marginal_08_cov_rot_trace.png",
-                                           "size":  308676
-                                       },
-                                       {
-                                           "file":  "marginal_09_cov_vel_x.png",
-                                           "path":  "sibl/marginal_09_cov_vel_x.png",
-                                           "size":  333501
-                                       },
-                                       {
-                                           "file":  "marginal_10_cov_vel_y.png",
-                                           "path":  "sibl/marginal_10_cov_vel_y.png",
-                                           "size":  332766
-                                       },
-                                       {
-                                           "file":  "marginal_11_cov_vel_z.png",
-                                           "path":  "sibl/marginal_11_cov_vel_z.png",
-                                           "size":  327195
-                                       },
-                                       {
-                                           "file":  "marginal_12_cov_vel_trace.png",
-                                           "path":  "sibl/marginal_12_cov_vel_trace.png",
-                                           "size":  339375
-                                       },
-                                       {
-                                           "file":  "marginal_13_cov_ba_x.png",
-                                           "path":  "sibl/marginal_13_cov_ba_x.png",
-                                           "size":  290907
-                                       },
-                                       {
-                                           "file":  "marginal_14_cov_ba_y.png",
-                                           "path":  "sibl/marginal_14_cov_ba_y.png",
-                                           "size":  307285
-                                       },
-                                       {
-                                           "file":  "marginal_15_cov_ba_z.png",
-                                           "path":  "sibl/marginal_15_cov_ba_z.png",
-                                           "size":  296284
-                                       },
-                                       {
-                                           "file":  "marginal_16_cov_ba_trace.png",
-                                           "path":  "sibl/marginal_16_cov_ba_trace.png",
-                                           "size":  290704
-                                       },
-                                       {
-                                           "file":  "marginal_17_cov_bg_x.png",
-                                           "path":  "sibl/marginal_17_cov_bg_x.png",
-                                           "size":  306394
-                                       },
-                                       {
-                                           "file":  "marginal_18_cov_bg_y.png",
-                                           "path":  "sibl/marginal_18_cov_bg_y.png",
-                                           "size":  306343
-                                       },
-                                       {
-                                           "file":  "marginal_19_cov_bg_z.png",
-                                           "path":  "sibl/marginal_19_cov_bg_z.png",
-                                           "size":  306213
-                                       },
-                                       {
-                                           "file":  "marginal_20_cov_bg_trace.png",
-                                           "path":  "sibl/marginal_20_cov_bg_trace.png",
-                                           "size":  304172
-                                       },
-                                       {
-                                           "file":  "scatter_01_depth_mean.png",
-                                           "path":  "sibl/scatter_01_depth_mean.png",
-                                           "size":  120992
-                                       },
-                                       {
-                                           "file":  "scatter_02_imu_bias_acc_norm.png",
-                                           "path":  "sibl/scatter_02_imu_bias_acc_norm.png",
-                                           "size":  106197
-                                       },
-                                       {
-                                           "file":  "scatter_03_imu_factor_cost.png",
-                                           "path":  "sibl/scatter_03_imu_factor_cost.png",
-                                           "size":  118974
-                                       },
-                                       {
-                                           "file":  "scatter_04_solver_iterations.png",
-                                           "path":  "sibl/scatter_04_solver_iterations.png",
-                                           "size":  101156
-                                       },
-                                       {
-                                           "file":  "scatter_05_num_new_features.png",
-                                           "path":  "sibl/scatter_05_num_new_features.png",
-                                           "size":  119387
-                                       },
-                                       {
-                                           "file":  "scatter_06_cov_ba_z.png",
-                                           "path":  "sibl/scatter_06_cov_ba_z.png",
-                                           "size":  112067
-                                       },
-                                       {
-                                           "file":  "scatter_07_cov_ba_trace.png",
-                                           "path":  "sibl/scatter_07_cov_ba_trace.png",
-                                           "size":  114700
-                                       },
-                                       {
-                                           "file":  "scatter_08_cov_rot_y.png",
-                                           "path":  "sibl/scatter_08_cov_rot_y.png",
-                                           "size":  112321
-                                       },
-                                       {
-                                           "file":  "scatter_09_cov_ba_x.png",
-                                           "path":  "sibl/scatter_09_cov_ba_x.png",
-                                           "size":  110131
-                                       },
-                                       {
-                                           "file":  "scatter_10_cov_rot_trace.png",
-                                           "path":  "sibl/scatter_10_cov_rot_trace.png",
-                                           "size":  113645
-                                       },
-                                       {
-                                           "file":  "scatter_11_cov_ba_y.png",
-                                           "path":  "sibl/scatter_11_cov_ba_y.png",
-                                           "size":  111763
-                                       },
-                                       {
-                                           "file":  "scatter_12_cov_bg_x.png",
-                                           "path":  "sibl/scatter_12_cov_bg_x.png",
-                                           "size":  112446
+                                           "size":  325038
                                        }
                                    ]
                     },
                     {
                         "name":  "sodpsl",
-                        "count":  84,
+                        "count":  11,
                         "images":  [
-                                       {
-                                           "file":  "00_correlation_summary.png",
-                                           "path":  "sodpsl/00_correlation_summary.png",
-                                           "size":  266445
-                                       },
-                                       {
-                                           "file":  "01_reproj_error_mean.png",
-                                           "path":  "sodpsl/01_reproj_error_mean.png",
-                                           "size":  414569
-                                       },
                                        {
                                            "file":  "02_reproj_error_median.png",
                                            "path":  "sodpsl/02_reproj_error_median.png",
-                                           "size":  431597
+                                           "size":  457025
                                        },
                                        {
                                            "file":  "03_feature_lifetime_mean.png",
                                            "path":  "sodpsl/03_feature_lifetime_mean.png",
-                                           "size":  411019
+                                           "size":  409130
                                        },
                                        {
                                            "file":  "04_feature_lifetime_median.png",
                                            "path":  "sodpsl/04_feature_lifetime_median.png",
-                                           "size":  389699
-                                       },
-                                       {
-                                           "file":  "05_num_tracked_features.png",
-                                           "path":  "sodpsl/05_num_tracked_features.png",
-                                           "size":  400814
-                                       },
-                                       {
-                                           "file":  "06_num_new_features.png",
-                                           "path":  "sodpsl/06_num_new_features.png",
-                                           "size":  427109
-                                       },
-                                       {
-                                           "file":  "07_survival_rate.png",
-                                           "path":  "sodpsl/07_survival_rate.png",
-                                           "size":  385821
-                                       },
-                                       {
-                                           "file":  "08_parallax_avg.png",
-                                           "path":  "sodpsl/08_parallax_avg.png",
-                                           "size":  404760
-                                       },
-                                       {
-                                           "file":  "09_imu_bias_acc_norm.png",
-                                           "path":  "sodpsl/09_imu_bias_acc_norm.png",
-                                           "size":  302121
-                                       },
-                                       {
-                                           "file":  "10_imu_bias_gyr_norm.png",
-                                           "path":  "sodpsl/10_imu_bias_gyr_norm.png",
-                                           "size":  357764
-                                       },
-                                       {
-                                           "file":  "11_optical_flow_mean.png",
-                                           "path":  "sodpsl/11_optical_flow_mean.png",
-                                           "size":  461724
-                                       },
-                                       {
-                                           "file":  "12_optical_flow_median.png",
-                                           "path":  "sodpsl/12_optical_flow_median.png",
-                                           "size":  457747
-                                       },
-                                       {
-                                           "file":  "13_depth_mean.png",
-                                           "path":  "sodpsl/13_depth_mean.png",
-                                           "size":  362929
-                                       },
-                                       {
-                                           "file":  "14_depth_variance.png",
-                                           "path":  "sodpsl/14_depth_variance.png",
-                                           "size":  314453
-                                       },
-                                       {
-                                           "file":  "15_num_triangulated.png",
-                                           "path":  "sodpsl/15_num_triangulated.png",
-                                           "size":  426996
-                                       },
-                                       {
-                                           "file":  "16_solver_initial_cost.png",
-                                           "path":  "sodpsl/16_solver_initial_cost.png",
-                                           "size":  355374
-                                       },
-                                       {
-                                           "file":  "17_solver_final_cost.png",
-                                           "path":  "sodpsl/17_solver_final_cost.png",
-                                           "size":  334112
-                                       },
-                                       {
-                                           "file":  "18_solver_iterations.png",
-                                           "path":  "sodpsl/18_solver_iterations.png",
-                                           "size":  436355
-                                       },
-                                       {
-                                           "file":  "19_solver_converged.png",
-                                           "path":  "sodpsl/19_solver_converged.png",
-                                           "size":  453147
-                                       },
-                                       {
-                                           "file":  "20_solver_time_ms.png",
-                                           "path":  "sodpsl/20_solver_time_ms.png",
-                                           "size":  464810
+                                           "size":  372858
                                        },
                                        {
                                            "file":  "21_marginalization_factor_cost.png",
                                            "path":  "sodpsl/21_marginalization_factor_cost.png",
-                                           "size":  348116
+                                           "size":  325245
                                        },
                                        {
                                            "file":  "22_imu_factor_cost.png",
                                            "path":  "sodpsl/22_imu_factor_cost.png",
-                                           "size":  433203
+                                           "size":  432512
                                        },
                                        {
                                            "file":  "23_visual_factor_cost.png",
                                            "path":  "sodpsl/23_visual_factor_cost.png",
-                                           "size":  412648
+                                           "size":  399906
                                        },
                                        {
                                            "file":  "24_visual_factor_count.png",
                                            "path":  "sodpsl/24_visual_factor_count.png",
-                                           "size":  373526
+                                           "size":  342391
                                        },
                                        {
                                            "file":  "25_visual_factor_cost_avg.png",
                                            "path":  "sodpsl/25_visual_factor_cost_avg.png",
-                                           "size":  428426
+                                           "size":  425455
                                        },
                                        {
                                            "file":  "26_imu_preint_cov_trace_mean.png",
                                            "path":  "sodpsl/26_imu_preint_cov_trace_mean.png",
-                                           "size":  377268
+                                           "size":  358990
                                        },
                                        {
                                            "file":  "27_imu_preint_cov_trace_latest.png",
                                            "path":  "sodpsl/27_imu_preint_cov_trace_latest.png",
-                                           "size":  352786
+                                           "size":  362030
                                        },
                                        {
                                            "file":  "28_visual_meas_cov_trace.png",
                                            "path":  "sodpsl/28_visual_meas_cov_trace.png",
-                                           "size":  293186
-                                       },
-                                       {
-                                           "file":  "29_imu_visual_pos_disagreement.png",
-                                           "path":  "sodpsl/29_imu_visual_pos_disagreement.png",
-                                           "size":  497783
-                                       },
-                                       {
-                                           "file":  "30_imu_visual_vel_disagreement.png",
-                                           "path":  "sodpsl/30_imu_visual_vel_disagreement.png",
-                                           "size":  483168
-                                       },
-                                       {
-                                           "file":  "31_cov_marginal.png",
-                                           "path":  "sodpsl/31_cov_marginal.png",
-                                           "size":  523831
-                                       },
-                                       {
-                                           "file":  "32_cov_pos_x.png",
-                                           "path":  "sodpsl/32_cov_pos_x.png",
-                                           "size":  475899
-                                       },
-                                       {
-                                           "file":  "33_cov_pos_y.png",
-                                           "path":  "sodpsl/33_cov_pos_y.png",
-                                           "size":  467359
-                                       },
-                                       {
-                                           "file":  "34_cov_pos_z.png",
-                                           "path":  "sodpsl/34_cov_pos_z.png",
-                                           "size":  469307
-                                       },
-                                       {
-                                           "file":  "35_cov_pos_trace.png",
-                                           "path":  "sodpsl/35_cov_pos_trace.png",
-                                           "size":  478138
-                                       },
-                                       {
-                                           "file":  "36_cov_rot_x.png",
-                                           "path":  "sodpsl/36_cov_rot_x.png",
-                                           "size":  450895
-                                       },
-                                       {
-                                           "file":  "37_cov_rot_y.png",
-                                           "path":  "sodpsl/37_cov_rot_y.png",
-                                           "size":  450262
-                                       },
-                                       {
-                                           "file":  "38_cov_rot_z.png",
-                                           "path":  "sodpsl/38_cov_rot_z.png",
-                                           "size":  439540
-                                       },
-                                       {
-                                           "file":  "39_cov_rot_trace.png",
-                                           "path":  "sodpsl/39_cov_rot_trace.png",
-                                           "size":  457569
-                                       },
-                                       {
-                                           "file":  "40_cov_vel_x.png",
-                                           "path":  "sodpsl/40_cov_vel_x.png",
-                                           "size":  467812
-                                       },
-                                       {
-                                           "file":  "41_cov_vel_y.png",
-                                           "path":  "sodpsl/41_cov_vel_y.png",
-                                           "size":  465591
-                                       },
-                                       {
-                                           "file":  "42_cov_vel_z.png",
-                                           "path":  "sodpsl/42_cov_vel_z.png",
-                                           "size":  485342
-                                       },
-                                       {
-                                           "file":  "43_cov_vel_trace.png",
-                                           "path":  "sodpsl/43_cov_vel_trace.png",
-                                           "size":  484550
-                                       },
-                                       {
-                                           "file":  "44_cov_ba_x.png",
-                                           "path":  "sodpsl/44_cov_ba_x.png",
-                                           "size":  405585
-                                       },
-                                       {
-                                           "file":  "45_cov_ba_y.png",
-                                           "path":  "sodpsl/45_cov_ba_y.png",
-                                           "size":  443779
-                                       },
-                                       {
-                                           "file":  "46_cov_ba_z.png",
-                                           "path":  "sodpsl/46_cov_ba_z.png",
-                                           "size":  429538
-                                       },
-                                       {
-                                           "file":  "47_cov_ba_trace.png",
-                                           "path":  "sodpsl/47_cov_ba_trace.png",
-                                           "size":  427630
-                                       },
-                                       {
-                                           "file":  "48_cov_bg_x.png",
-                                           "path":  "sodpsl/48_cov_bg_x.png",
-                                           "size":  442914
-                                       },
-                                       {
-                                           "file":  "49_cov_bg_y.png",
-                                           "path":  "sodpsl/49_cov_bg_y.png",
-                                           "size":  441422
-                                       },
-                                       {
-                                           "file":  "50_cov_bg_z.png",
-                                           "path":  "sodpsl/50_cov_bg_z.png",
-                                           "size":  438558
-                                       },
-                                       {
-                                           "file":  "51_cov_bg_trace.png",
-                                           "path":  "sodpsl/51_cov_bg_trace.png",
-                                           "size":  441895
-                                       },
-                                       {
-                                           "file":  "marginal_01_cov_pos_x.png",
-                                           "path":  "sodpsl/marginal_01_cov_pos_x.png",
-                                           "size":  347398
-                                       },
-                                       {
-                                           "file":  "marginal_02_cov_pos_y.png",
-                                           "path":  "sodpsl/marginal_02_cov_pos_y.png",
-                                           "size":  348897
-                                       },
-                                       {
-                                           "file":  "marginal_03_cov_pos_z.png",
-                                           "path":  "sodpsl/marginal_03_cov_pos_z.png",
-                                           "size":  348794
-                                       },
-                                       {
-                                           "file":  "marginal_04_cov_pos_trace.png",
-                                           "path":  "sodpsl/marginal_04_cov_pos_trace.png",
-                                           "size":  353112
-                                       },
-                                       {
-                                           "file":  "marginal_05_cov_rot_x.png",
-                                           "path":  "sodpsl/marginal_05_cov_rot_x.png",
-                                           "size":  354701
-                                       },
-                                       {
-                                           "file":  "marginal_06_cov_rot_y.png",
-                                           "path":  "sodpsl/marginal_06_cov_rot_y.png",
-                                           "size":  311133
-                                       },
-                                       {
-                                           "file":  "marginal_07_cov_rot_z.png",
-                                           "path":  "sodpsl/marginal_07_cov_rot_z.png",
-                                           "size":  345375
-                                       },
-                                       {
-                                           "file":  "marginal_08_cov_rot_trace.png",
-                                           "path":  "sodpsl/marginal_08_cov_rot_trace.png",
-                                           "size":  319843
-                                       },
-                                       {
-                                           "file":  "marginal_09_cov_vel_x.png",
-                                           "path":  "sodpsl/marginal_09_cov_vel_x.png",
-                                           "size":  358561
-                                       },
-                                       {
-                                           "file":  "marginal_10_cov_vel_y.png",
-                                           "path":  "sodpsl/marginal_10_cov_vel_y.png",
-                                           "size":  352624
-                                       },
-                                       {
-                                           "file":  "marginal_11_cov_vel_z.png",
-                                           "path":  "sodpsl/marginal_11_cov_vel_z.png",
-                                           "size":  361747
-                                       },
-                                       {
-                                           "file":  "marginal_12_cov_vel_trace.png",
-                                           "path":  "sodpsl/marginal_12_cov_vel_trace.png",
-                                           "size":  345891
-                                       },
-                                       {
-                                           "file":  "marginal_13_cov_ba_x.png",
-                                           "path":  "sodpsl/marginal_13_cov_ba_x.png",
-                                           "size":  309139
-                                       },
-                                       {
-                                           "file":  "marginal_14_cov_ba_y.png",
-                                           "path":  "sodpsl/marginal_14_cov_ba_y.png",
-                                           "size":  322543
-                                       },
-                                       {
-                                           "file":  "marginal_15_cov_ba_z.png",
-                                           "path":  "sodpsl/marginal_15_cov_ba_z.png",
-                                           "size":  319034
-                                       },
-                                       {
-                                           "file":  "marginal_16_cov_ba_trace.png",
-                                           "path":  "sodpsl/marginal_16_cov_ba_trace.png",
-                                           "size":  316630
-                                       },
-                                       {
-                                           "file":  "marginal_17_cov_bg_x.png",
-                                           "path":  "sodpsl/marginal_17_cov_bg_x.png",
-                                           "size":  324603
-                                       },
-                                       {
-                                           "file":  "marginal_18_cov_bg_y.png",
-                                           "path":  "sodpsl/marginal_18_cov_bg_y.png",
-                                           "size":  326207
-                                       },
-                                       {
-                                           "file":  "marginal_19_cov_bg_z.png",
-                                           "path":  "sodpsl/marginal_19_cov_bg_z.png",
-                                           "size":  322449
-                                       },
-                                       {
-                                           "file":  "marginal_20_cov_bg_trace.png",
-                                           "path":  "sodpsl/marginal_20_cov_bg_trace.png",
-                                           "size":  322647
-                                       },
-                                       {
-                                           "file":  "scatter_01_solver_converged.png",
-                                           "path":  "sodpsl/scatter_01_solver_converged.png",
-                                           "size":  95693
-                                       },
-                                       {
-                                           "file":  "scatter_02_visual_factor_cost.png",
-                                           "path":  "sodpsl/scatter_02_visual_factor_cost.png",
-                                           "size":  129364
-                                       },
-                                       {
-                                           "file":  "scatter_03_depth_mean.png",
-                                           "path":  "sodpsl/scatter_03_depth_mean.png",
-                                           "size":  118906
-                                       },
-                                       {
-                                           "file":  "scatter_04_solver_iterations.png",
-                                           "path":  "sodpsl/scatter_04_solver_iterations.png",
-                                           "size":  112549
-                                       },
-                                       {
-                                           "file":  "scatter_05_visual_factor_cost_avg.png",
-                                           "path":  "sodpsl/scatter_05_visual_factor_cost_avg.png",
-                                           "size":  128786
-                                       },
-                                       {
-                                           "file":  "scatter_06_reproj_error_mean.png",
-                                           "path":  "sodpsl/scatter_06_reproj_error_mean.png",
-                                           "size":  125982
-                                       },
-                                       {
-                                           "file":  "scatter_07_cov_vel_trace.png",
-                                           "path":  "sodpsl/scatter_07_cov_vel_trace.png",
-                                           "size":  115838
-                                       },
-                                       {
-                                           "file":  "scatter_08_cov_vel_z.png",
-                                           "path":  "sodpsl/scatter_08_cov_vel_z.png",
-                                           "size":  115350
-                                       },
-                                       {
-                                           "file":  "scatter_09_cov_vel_y.png",
-                                           "path":  "sodpsl/scatter_09_cov_vel_y.png",
-                                           "size":  115489
-                                       },
-                                       {
-                                           "file":  "scatter_10_reproj_error_median.png",
-                                           "path":  "sodpsl/scatter_10_reproj_error_median.png",
-                                           "size":  128282
-                                       },
-                                       {
-                                           "file":  "scatter_11_imu_preint_cov_trace_mean.png",
-                                           "path":  "sodpsl/scatter_11_imu_preint_cov_trace_mean.png",
-                                           "size":  121421
-                                       },
-                                       {
-                                           "file":  "scatter_12_imu_bias_acc_norm.png",
-                                           "path":  "sodpsl/scatter_12_imu_bias_acc_norm.png",
-                                           "size":  106833
+                                           "size":  272647
                                        }
                                    ]
                     },
                     {
                         "name":  "sods",
-                        "count":  84,
+                        "count":  11,
                         "images":  [
-                                       {
-                                           "file":  "00_correlation_summary.png",
-                                           "path":  "sods/00_correlation_summary.png",
-                                           "size":  266152
-                                       },
-                                       {
-                                           "file":  "01_reproj_error_mean.png",
-                                           "path":  "sods/01_reproj_error_mean.png",
-                                           "size":  366439
-                                       },
                                        {
                                            "file":  "02_reproj_error_median.png",
                                            "path":  "sods/02_reproj_error_median.png",
-                                           "size":  409500
+                                           "size":  402977
                                        },
                                        {
                                            "file":  "03_feature_lifetime_mean.png",
                                            "path":  "sods/03_feature_lifetime_mean.png",
-                                           "size":  434592
+                                           "size":  448023
                                        },
                                        {
                                            "file":  "04_feature_lifetime_median.png",
                                            "path":  "sods/04_feature_lifetime_median.png",
-                                           "size":  444530
-                                       },
-                                       {
-                                           "file":  "05_num_tracked_features.png",
-                                           "path":  "sods/05_num_tracked_features.png",
-                                           "size":  363970
-                                       },
-                                       {
-                                           "file":  "06_num_new_features.png",
-                                           "path":  "sods/06_num_new_features.png",
-                                           "size":  434808
-                                       },
-                                       {
-                                           "file":  "07_survival_rate.png",
-                                           "path":  "sods/07_survival_rate.png",
-                                           "size":  354991
-                                       },
-                                       {
-                                           "file":  "08_parallax_avg.png",
-                                           "path":  "sods/08_parallax_avg.png",
-                                           "size":  353808
-                                       },
-                                       {
-                                           "file":  "09_imu_bias_acc_norm.png",
-                                           "path":  "sods/09_imu_bias_acc_norm.png",
-                                           "size":  294403
-                                       },
-                                       {
-                                           "file":  "10_imu_bias_gyr_norm.png",
-                                           "path":  "sods/10_imu_bias_gyr_norm.png",
-                                           "size":  373247
-                                       },
-                                       {
-                                           "file":  "11_optical_flow_mean.png",
-                                           "path":  "sods/11_optical_flow_mean.png",
-                                           "size":  478699
-                                       },
-                                       {
-                                           "file":  "12_optical_flow_median.png",
-                                           "path":  "sods/12_optical_flow_median.png",
-                                           "size":  462627
-                                       },
-                                       {
-                                           "file":  "13_depth_mean.png",
-                                           "path":  "sods/13_depth_mean.png",
-                                           "size":  395087
-                                       },
-                                       {
-                                           "file":  "14_depth_variance.png",
-                                           "path":  "sods/14_depth_variance.png",
-                                           "size":  340405
-                                       },
-                                       {
-                                           "file":  "15_num_triangulated.png",
-                                           "path":  "sods/15_num_triangulated.png",
-                                           "size":  427973
-                                       },
-                                       {
-                                           "file":  "16_solver_initial_cost.png",
-                                           "path":  "sods/16_solver_initial_cost.png",
-                                           "size":  330817
-                                       },
-                                       {
-                                           "file":  "17_solver_final_cost.png",
-                                           "path":  "sods/17_solver_final_cost.png",
-                                           "size":  365444
-                                       },
-                                       {
-                                           "file":  "18_solver_iterations.png",
-                                           "path":  "sods/18_solver_iterations.png",
-                                           "size":  342522
-                                       },
-                                       {
-                                           "file":  "19_solver_converged.png",
-                                           "path":  "sods/19_solver_converged.png",
-                                           "size":  321038
-                                       },
-                                       {
-                                           "file":  "20_solver_time_ms.png",
-                                           "path":  "sods/20_solver_time_ms.png",
-                                           "size":  476306
+                                           "size":  424097
                                        },
                                        {
                                            "file":  "21_marginalization_factor_cost.png",
                                            "path":  "sods/21_marginalization_factor_cost.png",
-                                           "size":  371226
+                                           "size":  359337
                                        },
                                        {
                                            "file":  "22_imu_factor_cost.png",
                                            "path":  "sods/22_imu_factor_cost.png",
-                                           "size":  424352
+                                           "size":  451598
                                        },
                                        {
                                            "file":  "23_visual_factor_cost.png",
                                            "path":  "sods/23_visual_factor_cost.png",
-                                           "size":  411002
+                                           "size":  490385
                                        },
                                        {
                                            "file":  "24_visual_factor_count.png",
                                            "path":  "sods/24_visual_factor_count.png",
-                                           "size":  394071
+                                           "size":  350690
                                        },
                                        {
                                            "file":  "25_visual_factor_cost_avg.png",
                                            "path":  "sods/25_visual_factor_cost_avg.png",
-                                           "size":  416599
+                                           "size":  488861
                                        },
                                        {
                                            "file":  "26_imu_preint_cov_trace_mean.png",
                                            "path":  "sods/26_imu_preint_cov_trace_mean.png",
-                                           "size":  402134
+                                           "size":  408497
                                        },
                                        {
                                            "file":  "27_imu_preint_cov_trace_latest.png",
                                            "path":  "sods/27_imu_preint_cov_trace_latest.png",
-                                           "size":  312835
+                                           "size":  332903
                                        },
                                        {
                                            "file":  "28_visual_meas_cov_trace.png",
                                            "path":  "sods/28_visual_meas_cov_trace.png",
-                                           "size":  320315
-                                       },
-                                       {
-                                           "file":  "29_imu_visual_pos_disagreement.png",
-                                           "path":  "sods/29_imu_visual_pos_disagreement.png",
-                                           "size":  365413
-                                       },
-                                       {
-                                           "file":  "30_imu_visual_vel_disagreement.png",
-                                           "path":  "sods/30_imu_visual_vel_disagreement.png",
-                                           "size":  350112
-                                       },
-                                       {
-                                           "file":  "31_cov_marginal.png",
-                                           "path":  "sods/31_cov_marginal.png",
-                                           "size":  521451
-                                       },
-                                       {
-                                           "file":  "32_cov_pos_x.png",
-                                           "path":  "sods/32_cov_pos_x.png",
-                                           "size":  502638
-                                       },
-                                       {
-                                           "file":  "33_cov_pos_y.png",
-                                           "path":  "sods/33_cov_pos_y.png",
-                                           "size":  467165
-                                       },
-                                       {
-                                           "file":  "34_cov_pos_z.png",
-                                           "path":  "sods/34_cov_pos_z.png",
-                                           "size":  505708
-                                       },
-                                       {
-                                           "file":  "35_cov_pos_trace.png",
-                                           "path":  "sods/35_cov_pos_trace.png",
-                                           "size":  505702
-                                       },
-                                       {
-                                           "file":  "36_cov_rot_x.png",
-                                           "path":  "sods/36_cov_rot_x.png",
-                                           "size":  446380
-                                       },
-                                       {
-                                           "file":  "37_cov_rot_y.png",
-                                           "path":  "sods/37_cov_rot_y.png",
-                                           "size":  408242
-                                       },
-                                       {
-                                           "file":  "38_cov_rot_z.png",
-                                           "path":  "sods/38_cov_rot_z.png",
-                                           "size":  422769
-                                       },
-                                       {
-                                           "file":  "39_cov_rot_trace.png",
-                                           "path":  "sods/39_cov_rot_trace.png",
-                                           "size":  417563
-                                       },
-                                       {
-                                           "file":  "40_cov_vel_x.png",
-                                           "path":  "sods/40_cov_vel_x.png",
-                                           "size":  441530
-                                       },
-                                       {
-                                           "file":  "41_cov_vel_y.png",
-                                           "path":  "sods/41_cov_vel_y.png",
-                                           "size":  436630
-                                       },
-                                       {
-                                           "file":  "42_cov_vel_z.png",
-                                           "path":  "sods/42_cov_vel_z.png",
-                                           "size":  433670
-                                       },
-                                       {
-                                           "file":  "43_cov_vel_trace.png",
-                                           "path":  "sods/43_cov_vel_trace.png",
-                                           "size":  438232
-                                       },
-                                       {
-                                           "file":  "44_cov_ba_x.png",
-                                           "path":  "sods/44_cov_ba_x.png",
-                                           "size":  370463
-                                       },
-                                       {
-                                           "file":  "45_cov_ba_y.png",
-                                           "path":  "sods/45_cov_ba_y.png",
-                                           "size":  428656
-                                       },
-                                       {
-                                           "file":  "46_cov_ba_z.png",
-                                           "path":  "sods/46_cov_ba_z.png",
-                                           "size":  404723
-                                       },
-                                       {
-                                           "file":  "47_cov_ba_trace.png",
-                                           "path":  "sods/47_cov_ba_trace.png",
-                                           "size":  400156
-                                       },
-                                       {
-                                           "file":  "48_cov_bg_x.png",
-                                           "path":  "sods/48_cov_bg_x.png",
-                                           "size":  437200
-                                       },
-                                       {
-                                           "file":  "49_cov_bg_y.png",
-                                           "path":  "sods/49_cov_bg_y.png",
-                                           "size":  440295
-                                       },
-                                       {
-                                           "file":  "50_cov_bg_z.png",
-                                           "path":  "sods/50_cov_bg_z.png",
-                                           "size":  430397
-                                       },
-                                       {
-                                           "file":  "51_cov_bg_trace.png",
-                                           "path":  "sods/51_cov_bg_trace.png",
-                                           "size":  435490
-                                       },
-                                       {
-                                           "file":  "marginal_01_cov_pos_x.png",
-                                           "path":  "sods/marginal_01_cov_pos_x.png",
-                                           "size":  339360
-                                       },
-                                       {
-                                           "file":  "marginal_02_cov_pos_y.png",
-                                           "path":  "sods/marginal_02_cov_pos_y.png",
-                                           "size":  342035
-                                       },
-                                       {
-                                           "file":  "marginal_03_cov_pos_z.png",
-                                           "path":  "sods/marginal_03_cov_pos_z.png",
-                                           "size":  293807
-                                       },
-                                       {
-                                           "file":  "marginal_04_cov_pos_trace.png",
-                                           "path":  "sods/marginal_04_cov_pos_trace.png",
-                                           "size":  312640
-                                       },
-                                       {
-                                           "file":  "marginal_05_cov_rot_x.png",
-                                           "path":  "sods/marginal_05_cov_rot_x.png",
-                                           "size":  346003
-                                       },
-                                       {
-                                           "file":  "marginal_06_cov_rot_y.png",
-                                           "path":  "sods/marginal_06_cov_rot_y.png",
-                                           "size":  292962
-                                       },
-                                       {
-                                           "file":  "marginal_07_cov_rot_z.png",
-                                           "path":  "sods/marginal_07_cov_rot_z.png",
-                                           "size":  344534
-                                       },
-                                       {
-                                           "file":  "marginal_08_cov_rot_trace.png",
-                                           "path":  "sods/marginal_08_cov_rot_trace.png",
-                                           "size":  299632
-                                       },
-                                       {
-                                           "file":  "marginal_09_cov_vel_x.png",
-                                           "path":  "sods/marginal_09_cov_vel_x.png",
-                                           "size":  351470
-                                       },
-                                       {
-                                           "file":  "marginal_10_cov_vel_y.png",
-                                           "path":  "sods/marginal_10_cov_vel_y.png",
-                                           "size":  341061
-                                       },
-                                       {
-                                           "file":  "marginal_11_cov_vel_z.png",
-                                           "path":  "sods/marginal_11_cov_vel_z.png",
-                                           "size":  326420
-                                       },
-                                       {
-                                           "file":  "marginal_12_cov_vel_trace.png",
-                                           "path":  "sods/marginal_12_cov_vel_trace.png",
-                                           "size":  338400
-                                       },
-                                       {
-                                           "file":  "marginal_13_cov_ba_x.png",
-                                           "path":  "sods/marginal_13_cov_ba_x.png",
-                                           "size":  302631
-                                       },
-                                       {
-                                           "file":  "marginal_14_cov_ba_y.png",
-                                           "path":  "sods/marginal_14_cov_ba_y.png",
-                                           "size":  331953
-                                       },
-                                       {
-                                           "file":  "marginal_15_cov_ba_z.png",
-                                           "path":  "sods/marginal_15_cov_ba_z.png",
-                                           "size":  313250
-                                       },
-                                       {
-                                           "file":  "marginal_16_cov_ba_trace.png",
-                                           "path":  "sods/marginal_16_cov_ba_trace.png",
-                                           "size":  320936
-                                       },
-                                       {
-                                           "file":  "marginal_17_cov_bg_x.png",
-                                           "path":  "sods/marginal_17_cov_bg_x.png",
-                                           "size":  329193
-                                       },
-                                       {
-                                           "file":  "marginal_18_cov_bg_y.png",
-                                           "path":  "sods/marginal_18_cov_bg_y.png",
-                                           "size":  332045
-                                       },
-                                       {
-                                           "file":  "marginal_19_cov_bg_z.png",
-                                           "path":  "sods/marginal_19_cov_bg_z.png",
-                                           "size":  326418
-                                       },
-                                       {
-                                           "file":  "marginal_20_cov_bg_trace.png",
-                                           "path":  "sods/marginal_20_cov_bg_trace.png",
-                                           "size":  327660
-                                       },
-                                       {
-                                           "file":  "scatter_01_depth_mean.png",
-                                           "path":  "sods/scatter_01_depth_mean.png",
-                                           "size":  112012
-                                       },
-                                       {
-                                           "file":  "scatter_02_cov_vel_y.png",
-                                           "path":  "sods/scatter_02_cov_vel_y.png",
-                                           "size":  108950
-                                       },
-                                       {
-                                           "file":  "scatter_03_cov_vel_trace.png",
-                                           "path":  "sods/scatter_03_cov_vel_trace.png",
-                                           "size":  109960
-                                       },
-                                       {
-                                           "file":  "scatter_04_feature_lifetime_mean.png",
-                                           "path":  "sods/scatter_04_feature_lifetime_mean.png",
-                                           "size":  118648
-                                       },
-                                       {
-                                           "file":  "scatter_05_num_triangulated.png",
-                                           "path":  "sods/scatter_05_num_triangulated.png",
-                                           "size":  117269
-                                       },
-                                       {
-                                           "file":  "scatter_06_visual_factor_count.png",
-                                           "path":  "sods/scatter_06_visual_factor_count.png",
-                                           "size":  116814
-                                       },
-                                       {
-                                           "file":  "scatter_07_feature_lifetime_median.png",
-                                           "path":  "sods/scatter_07_feature_lifetime_median.png",
-                                           "size":  111522
-                                       },
-                                       {
-                                           "file":  "scatter_08_cov_pos_y.png",
-                                           "path":  "sods/scatter_08_cov_pos_y.png",
-                                           "size":  108930
-                                       },
-                                       {
-                                           "file":  "scatter_09_cov_vel_z.png",
-                                           "path":  "sods/scatter_09_cov_vel_z.png",
-                                           "size":  102743
-                                       },
-                                       {
-                                           "file":  "scatter_10_visual_factor_cost.png",
-                                           "path":  "sods/scatter_10_visual_factor_cost.png",
-                                           "size":  112910
-                                       },
-                                       {
-                                           "file":  "scatter_11_num_tracked_features.png",
-                                           "path":  "sods/scatter_11_num_tracked_features.png",
-                                           "size":  105332
-                                       },
-                                       {
-                                           "file":  "scatter_12_survival_rate.png",
-                                           "path":  "sods/scatter_12_survival_rate.png",
-                                           "size":  104820
+                                           "size":  310700
                                        }
                                    ]
                     }
