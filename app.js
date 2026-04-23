@@ -63,6 +63,15 @@ function getSequenceOverlayRawLabel(folderName) {
   return folderAliases[parts[1]] || parts[1];
 }
 
+function getFolderListLabel(folderName) {
+  const sequenceOverlayRawLabel = getSequenceOverlayRawLabel(folderName);
+  if (sequenceOverlayRawLabel) {
+    return sequenceOverlayRawLabel;
+  }
+
+  return getFolderLabel(folderName);
+}
+
 function getFolderLabel(folderName) {
   const sequenceOverlayRawLabel = getSequenceOverlayRawLabel(folderName);
   if (sequenceOverlayRawLabel) {
@@ -98,6 +107,11 @@ function formatTitle(fileName) {
 function folderDescription(folder) {
   if (!folder.images.length) {
     return "No images";
+  }
+
+  const parts = getFolderParts(folder.name);
+  if (isSequenceOverlayRawFolder(parts)) {
+    return `${folder.images.length} plots • ${prettifySegment(parts[2])} raw overlays`;
   }
 
   const firstImage = formatTitle(folder.images[0].file);
@@ -150,7 +164,7 @@ function renderFolders() {
 
     const title = document.createElement("div");
     title.className = "folder-button-title";
-    title.innerHTML = `<code>${getFolderLabel(folder.name)}</code><span class="folder-count">${folder.images.length}</span>`;
+    title.innerHTML = `<code>${getFolderListLabel(folder.name)}</code><span class="folder-count">${folder.images.length}</span>`;
 
     const description = document.createElement("small");
     description.textContent = folderDescription(folder);
