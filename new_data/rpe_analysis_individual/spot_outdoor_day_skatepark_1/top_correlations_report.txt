@@ -1,0 +1,28 @@
+Sequence: spot_outdoor_day_skatepark_1
+
+Oldest frame (covariance_metrics_optimized.csv)
+Translation RPE [m]:
+  Top positive correlations:
+    1. Reprojection sample count (reprojection_sample_count): spearman=+0.278, pearson=+0.231, n=543
+    2. Feature count (feature_count): spearman=+0.276, pearson=+0.161, n=543
+    3. Long track count (long_track_count): spearman=+0.183, pearson=+0.191, n=543
+    4. Latest-frame reprojection sample count (latest_frame_active_reprojection_sample_count): spearman=+0.145, pearson=+0.122, n=543
+    5. Average parallax [px] (avg_parallax_px): spearman=+0.135, pearson=+0.039, n=543
+  Top negative correlations:
+    1. Latest-frame reprojection mean [px] (latest_frame_active_reprojection_mean_px): spearman=-0.153, pearson=-0.061, n=543
+    2. New feature count (new_feature_count): spearman=-0.134, pearson=-0.116, n=543
+    3. Latest-frame reprojection sum [px] (latest_frame_active_reprojection_sum_px): spearman=-0.131, pearson=-0.065, n=543
+    4. Outlier count (outlier_count): spearman=-0.097, pearson=-0.126, n=543
+    5. Pose rotation covariance trace [rad^2] (pose_rotation_cov_trace_rad2): spearman=-0.084, pearson=-0.021, n=543
+
+Latest frame (covariance_metrics_latest.csv)
+Translation RPE [m]:
+  Top positive correlations:
+    1. Average reprojection error [px] (avg_reprojection_error_px): spearman=+0.239, pearson=+0.241, n=1093
+    2. Long track count (long_track_count): spearman=+0.181, pearson=+0.175, n=1093
+    3. Latest-frame reprojection sum [px] (latest_frame_active_reprojection_sum_px): spearman=+0.165, pearson=+0.059, n=1093
+    4. Feature count (feature_count): spearman=+0.148, pearson=+0.143, n=1093
+    5. Latest-frame reprojection mean [px] (latest_frame_active_reprojection_mean_px): spearman=+0.148, pearson=+0.049, n=1093
+  Top negative correlations:
+    1. Marginalization flag (marginalization_flag): spearman=-0.088, pearson=-0.057, n=1093
+    2. Tracked feature count (tracked_feature_count): spearman=-0.005, pearson=+0.059, n=1093

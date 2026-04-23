@@ -1,0 +1,31 @@
+Sequence: spot_indoor_building_loop
+
+Oldest frame (covariance_metrics_optimized.csv)
+Translation RPE [m]:
+  Top positive correlations:
+    1. Submit-to-publish latency [s] (submit_to_publish_latency_sec): spearman=+0.581, pearson=+0.438, n=673
+    2. Latest-frame reprojection sample count (latest_frame_active_reprojection_sample_count): spearman=+0.330, pearson=+0.286, n=673
+    3. Tracked feature count (tracked_feature_count): spearman=+0.330, pearson=+0.286, n=673
+    4. Feature count (feature_count): spearman=+0.227, pearson=+0.228, n=673
+    5. Reprojection sample count (reprojection_sample_count): spearman=+0.186, pearson=+0.196, n=673
+  Top negative correlations:
+    1. Pose rotation covariance trace [rad^2] (pose_rotation_cov_trace_rad2): spearman=-0.326, pearson=+0.092, n=673
+    2. New feature count (new_feature_count): spearman=-0.180, pearson=-0.186, n=673
+    3. Max reprojection error [px] (max_reprojection_error_px): spearman=-0.177, pearson=-0.073, n=673
+    4. Outlier count (outlier_count): spearman=-0.144, pearson=-0.110, n=673
+    5. Latest-frame reprojection mean [px] (latest_frame_active_reprojection_mean_px): spearman=-0.061, pearson=+0.007, n=673
+
+Latest frame (covariance_metrics_latest.csv)
+Translation RPE [m]:
+  Top positive correlations:
+    1. Marginalization flag (marginalization_flag): spearman=+0.111, pearson=+0.125, n=1226
+    2. Pose position covariance trace [m^2] (pose_position_cov_trace_m2): spearman=+0.109, pearson=+0.028, n=1226
+    3. Latest-frame reprojection sum [px] (latest_frame_active_reprojection_sum_px): spearman=+0.095, pearson=+0.031, n=1226
+    4. Submit-to-publish latency [s] (submit_to_publish_latency_sec): spearman=+0.082, pearson=+0.105, n=1226
+    5. New feature count (new_feature_count): spearman=+0.072, pearson=-0.035, n=1226
+  Top negative correlations:
+    1. Max reprojection error [px] (max_reprojection_error_px): spearman=-0.076, pearson=-0.050, n=1226
+    2. Pose rotation covariance trace [rad^2] (pose_rotation_cov_trace_rad2): spearman=-0.075, pearson=+0.095, n=1226
+    3. Outlier count (outlier_count): spearman=-0.033, pearson=-0.030, n=1226
+    4. Average reprojection error [px] (avg_reprojection_error_px): spearman=-0.033, pearson=-0.051, n=1226
+    5. Average parallax [px] (avg_parallax_px): spearman=-0.030, pearson=-0.086, n=1226

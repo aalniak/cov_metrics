@@ -1,0 +1,31 @@
+Sequence: spot_forest_hard
+
+Oldest frame (covariance_metrics_optimized.csv)
+Translation RPE [m]:
+  Top positive correlations:
+    1. Feature count (feature_count): spearman=+0.377, pearson=+0.241, n=770
+    2. Submit-to-publish latency [s] (submit_to_publish_latency_sec): spearman=+0.334, pearson=+0.419, n=770
+    3. Reprojection sample count (reprojection_sample_count): spearman=+0.280, pearson=+0.220, n=770
+    4. Latest-frame reprojection sample count (latest_frame_active_reprojection_sample_count): spearman=+0.185, pearson=+0.057, n=770
+    5. Long track count (long_track_count): spearman=+0.163, pearson=+0.082, n=770
+  Top negative correlations:
+    1. Average reprojection error [px] (avg_reprojection_error_px): spearman=-0.251, pearson=-0.219, n=770
+    2. Outlier count (outlier_count): spearman=-0.188, pearson=-0.123, n=770
+    3. Latest-frame reprojection mean [px] (latest_frame_active_reprojection_mean_px): spearman=-0.178, pearson=-0.053, n=770
+    4. Latest-frame reprojection sum [px] (latest_frame_active_reprojection_sum_px): spearman=-0.158, pearson=-0.038, n=770
+    5. New feature count (new_feature_count): spearman=-0.138, pearson=-0.036, n=770
+
+Latest frame (covariance_metrics_latest.csv)
+Translation RPE [m]:
+  Top positive correlations:
+    1. Feature count (feature_count): spearman=+0.244, pearson=+0.234, n=1274
+    2. Pose rotation covariance trace [rad^2] (pose_rotation_cov_trace_rad2): spearman=+0.233, pearson=+0.040, n=1274
+    3. New feature count (new_feature_count): spearman=+0.174, pearson=+0.018, n=1274
+    4. Average parallax [px] (avg_parallax_px): spearman=+0.127, pearson=+0.087, n=1274
+    5. Max reprojection error [px] (max_reprojection_error_px): spearman=+0.111, pearson=+0.012, n=1274
+  Top negative correlations:
+    1. Tracked feature count (tracked_feature_count): spearman=-0.174, pearson=-0.018, n=1274
+    2. Long track count (long_track_count): spearman=-0.165, pearson=-0.079, n=1274
+    3. Latest-frame reprojection sample count (latest_frame_active_reprojection_sample_count): spearman=-0.135, pearson=+0.004, n=1274
+    4. Reprojection sample count (reprojection_sample_count): spearman=-0.075, pearson=+0.053, n=1274
+    5. Marginalization flag (marginalization_flag): spearman=-0.074, pearson=-0.058, n=1274

@@ -1,6 +1,7 @@
 ﻿# Covariance Viewer
 
 This folder now includes a static image browser that is ready to publish with GitHub Pages.
+The viewer is organized around `./new_data`, and only image files discovered under that tree are indexed.
 
 ## What it does
 
@@ -15,18 +16,19 @@ This folder now includes a static image browser that is ready to publish with Gi
 - `index.html`: page structure
 - `styles.css`: visual design and responsive layout
 - `app.js`: folder selection, filtering, hash routing, and lightbox behavior
-- `manifest.json`: generated list of folders and image files
-- `scripts/generate-manifest.ps1`: refreshes `manifest.json` from the current folders
+- `manifest.json`: generated list of image folders and files found under `new_data`
+- `scripts/generate-manifest.ps1`: refreshes `manifest.json` from the `new_data` tree
 
 ## Refresh the gallery data
 
-Run this whenever you add, remove, or rename image files or folders:
+Run this whenever you add, remove, or rename files under `new_data`:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\generate-manifest.ps1
 ```
 
 That updates `manifest.json`, which is what the browser reads.
+Each image-containing subfolder under `new_data` becomes its own gallery entry, so nested analysis outputs stay separated instead of being merged into one giant folder.
 
 ## Publish on GitHub Pages
 

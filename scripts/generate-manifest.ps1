@@ -1,21 +1,27 @@
-﻿param(
-    [string]$Root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path,
+param(
+    [string]$ProjectRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path,
+    [string]$DataRoot = (Join-Path (Resolve-Path (Join-Path $PSScriptRoot "..")).Path "new_data"),
     [string]$Output = (Join-Path (Resolve-Path (Join-Path $PSScriptRoot "..")).Path "manifest.json")
 )
 
 $imageExtensions = @(".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg")
-$rootPath = (Resolve-Path $Root).Path
+$projectRootPath = (Resolve-Path $ProjectRoot).Path
+$dataRootPath = (Resolve-Path $DataRoot).Path
+
+$candidateDirectories = @(
+    (Get-Item -Path $dataRootPath)
+    Get-ChildItem -Path $dataRootPath -Directory -Recurse | Sort-Object FullName
+)
 
 $folders = @(
-    Get-ChildItem -Path $rootPath -Directory |
-        Sort-Object Name |
+    $candidateDirectories |
         ForEach-Object {
             $images = @(
-                Get-ChildItem -Path $_.FullName -Recurse -File |
+                Get-ChildItem -Path $_.FullName -File |
                     Where-Object { $imageExtensions -contains $_.Extension.ToLowerInvariant() } |
-                    Sort-Object FullName |
+                    Sort-Object Name |
                     ForEach-Object {
-                        $relativePath = $_.FullName.Substring($rootPath.Length).TrimStart("\", "/") -replace "\\", "/"
+                        $relativePath = $_.FullName.Substring($projectRootPath.Length).TrimStart("\", "/") -replace "\\", "/"
 
                         [PSCustomObject]@{
                             file = $_.Name
@@ -26,13 +32,19 @@ $folders = @(
             )
 
             if ($images.Count -gt 0) {
+                $relativeFolder = $_.FullName.Substring($dataRootPath.Length).TrimStart("\", "/") -replace "\\", "/"
+                if ([string]::IsNullOrWhiteSpace($relativeFolder)) {
+                    $relativeFolder = "."
+                }
+
                 [PSCustomObject]@{
-                    name = $_.Name
+                    name = $relativeFolder
                     count = $images.Count
                     images = $images
                 }
             }
-        }
+        } |
+        Sort-Object name
 )
 
 $totalImages = ($folders | Measure-Object -Property count -Sum).Sum
@@ -42,6 +54,7 @@ if ($null -eq $totalImages) {
 
 $manifest = [PSCustomObject]@{
     generatedAt = (Get-Date).ToString("o")
+    dataRoot = "new_data"
     totals = [PSCustomObject]@{
         folders = $folders.Count
         images = $totalImages

@@ -7,7 +7,7 @@
   lightboxIndex: -1,
 };
 
-const folderDisplayNames = {
+const folderAliases = {
   sfh: "spot_forest_hard",
   sibl: "spot_indoor_building_loop",
   sodpsl: "spot_outdoor_day_penno_short_loop",
@@ -36,7 +36,11 @@ const elements = {
 };
 
 function getFolderLabel(folderName) {
-  return folderDisplayNames[folderName] || folderName;
+  return folderName
+    .split("/")
+    .filter(Boolean)
+    .map((segment) => folderAliases[segment] || segment)
+    .join(" / ");
 }
 
 function formatTitle(fileName) {

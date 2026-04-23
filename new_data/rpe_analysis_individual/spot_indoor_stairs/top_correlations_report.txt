@@ -1,0 +1,28 @@
+Sequence: spot_indoor_stairs
+
+Oldest frame (covariance_metrics_optimized.csv)
+Translation RPE [m]:
+  Top positive correlations:
+    1. Submit-to-publish latency [s] (submit_to_publish_latency_sec): spearman=+0.181, pearson=+0.129, n=568
+    2. Average reprojection error [px] (avg_reprojection_error_px): spearman=+0.093, pearson=-0.028, n=568
+    3. Latest-frame reprojection sum [px] (latest_frame_active_reprojection_sum_px): spearman=+0.088, pearson=-0.017, n=568
+    4. Latest-frame reprojection mean [px] (latest_frame_active_reprojection_mean_px): spearman=+0.084, pearson=-0.010, n=568
+    5. Feature count (feature_count): spearman=+0.081, pearson=+0.070, n=568
+  Top negative correlations:
+    1. Pose rotation covariance trace [rad^2] (pose_rotation_cov_trace_rad2): spearman=-0.249, pearson=-0.116, n=568
+    2. Long track count (long_track_count): spearman=-0.033, pearson=-0.100, n=568
+
+Latest frame (covariance_metrics_latest.csv)
+Translation RPE [m]:
+  Top positive correlations:
+    1. Average reprojection error [px] (avg_reprojection_error_px): spearman=+0.505, pearson=+0.340, n=1149
+    2. Max reprojection error [px] (max_reprojection_error_px): spearman=+0.468, pearson=+0.173, n=1149
+    3. Latest-frame reprojection mean [px] (latest_frame_active_reprojection_mean_px): spearman=+0.423, pearson=-0.015, n=1149
+    4. Outlier count (outlier_count): spearman=+0.408, pearson=+0.285, n=1149
+    5. Latest-frame reprojection sum [px] (latest_frame_active_reprojection_sum_px): spearman=+0.357, pearson=-0.039, n=1149
+  Top negative correlations:
+    1. Marginalization flag (marginalization_flag): spearman=-0.343, pearson=-0.375, n=1149
+    2. Latest-frame reprojection sample count (latest_frame_active_reprojection_sample_count): spearman=-0.326, pearson=-0.366, n=1149
+    3. Tracked feature count (tracked_feature_count): spearman=-0.325, pearson=-0.363, n=1149
+    4. Long track count (long_track_count): spearman=-0.165, pearson=-0.109, n=1149
+    5. Pose rotation covariance trace [rad^2] (pose_rotation_cov_trace_rad2): spearman=-0.129, pearson=+0.107, n=1149

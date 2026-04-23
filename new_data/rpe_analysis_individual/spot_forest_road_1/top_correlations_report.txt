@@ -1,0 +1,27 @@
+Sequence: spot_forest_road_1
+
+Oldest frame (covariance_metrics_optimized.csv)
+Translation RPE [m]:
+  Top positive correlations:
+    1. Submit-to-publish latency [s] (submit_to_publish_latency_sec): spearman=+0.437, pearson=+0.373, n=549
+    2. Pose rotation covariance trace [rad^2] (pose_rotation_cov_trace_rad2): spearman=+0.243, pearson=-0.088, n=549
+    3. Latest-frame reprojection sum [px] (latest_frame_active_reprojection_sum_px): spearman=+0.243, pearson=+0.005, n=549
+    4. Latest-frame reprojection sample count (latest_frame_active_reprojection_sample_count): spearman=+0.240, pearson=+0.279, n=549
+    5. Tracked feature count (tracked_feature_count): spearman=+0.236, pearson=+0.273, n=549
+  Top negative correlations:
+    1. New feature count (new_feature_count): spearman=-0.236, pearson=-0.273, n=549
+
+Latest frame (covariance_metrics_latest.csv)
+Translation RPE [m]:
+  Top positive correlations:
+    1. New feature count (new_feature_count): spearman=+0.600, pearson=+0.218, n=2184
+    2. Pose rotation covariance trace [rad^2] (pose_rotation_cov_trace_rad2): spearman=+0.568, pearson=+0.064, n=2184
+    3. Submit-to-publish latency [s] (submit_to_publish_latency_sec): spearman=+0.473, pearson=+0.189, n=2184
+    4. Average parallax [px] (avg_parallax_px): spearman=+0.459, pearson=+0.220, n=2184
+    5. Latest-frame reprojection sum [px] (latest_frame_active_reprojection_sum_px): spearman=+0.424, pearson=+0.026, n=2184
+  Top negative correlations:
+    1. Tracked feature count (tracked_feature_count): spearman=-0.600, pearson=-0.218, n=2184
+    2. Latest-frame reprojection sample count (latest_frame_active_reprojection_sample_count): spearman=-0.600, pearson=-0.214, n=2184
+    3. Long track count (long_track_count): spearman=-0.485, pearson=-0.424, n=2184
+    4. Reprojection sample count (reprojection_sample_count): spearman=-0.353, pearson=-0.281, n=2184
+    5. Marginalization flag (marginalization_flag): spearman=-0.239, pearson=-0.223, n=2184
