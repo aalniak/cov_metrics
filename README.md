@@ -1,7 +1,7 @@
 ﻿# Covariance Viewer
 
 This folder now includes a static image browser that is ready to publish with GitHub Pages.
-The viewer is organized around `./new_data`, and only image files discovered under that tree are indexed.
+The viewer is organized around `./new_data/rpe_analysis_individual`, and only image files discovered under that tree are indexed.
 
 ## What it does
 
@@ -16,19 +16,19 @@ The viewer is organized around `./new_data`, and only image files discovered und
 - `index.html`: page structure
 - `styles.css`: visual design and responsive layout
 - `app.js`: folder selection, filtering, hash routing, and lightbox behavior
-- `manifest.json`: generated list of image folders and files found under `new_data`
-- `scripts/generate-manifest.ps1`: refreshes `manifest.json` from the `new_data` tree
+- `manifest.json`: generated list of image folders and files found under `new_data/rpe_analysis_individual`
+- `scripts/generate-manifest.ps1`: refreshes `manifest.json` from the `new_data/rpe_analysis_individual` tree
 
 ## Refresh the gallery data
 
-Run this whenever you add, remove, or rename files under `new_data`:
+Run this whenever you add, remove, or rename files under `new_data/rpe_analysis_individual`:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\generate-manifest.ps1
 ```
 
 That updates `manifest.json`, which is what the browser reads.
-Only `rpe_translation_m/overlay_raw` subfolders under `new_data` are indexed, and each of those becomes its own gallery entry.
+Only `rpe_translation_m/overlay_raw` subfolders under `new_data/rpe_analysis_individual` are indexed, and each of those becomes its own gallery entry.
 
 ## Publish on GitHub Pages
 

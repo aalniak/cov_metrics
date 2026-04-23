@@ -1,13 +1,13 @@
 ﻿{
-    "generatedAt":  "2026-04-23T22:30:38.7069486+03:00",
-    "dataRoot":  "new_data",
+    "generatedAt":  "2026-04-23T22:44:59.3119458+03:00",
+    "dataRoot":  "new_data/rpe_analysis_individual",
     "totals":  {
                    "folders":  12,
                    "images":  321
                },
     "folders":  [
                     {
-                        "name":  "rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw",
+                        "name":  "spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw",
                         "count":  28,
                         "images":  [
                                        {
@@ -153,7 +153,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
+                        "name":  "spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
                         "count":  28,
                         "images":  [
                                        {
@@ -299,7 +299,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw",
+                        "name":  "spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw",
                         "count":  30,
                         "images":  [
                                        {
@@ -455,7 +455,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
+                        "name":  "spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
                         "count":  29,
                         "images":  [
                                        {
@@ -606,7 +606,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw",
+                        "name":  "spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw",
                         "count":  31,
                         "images":  [
                                        {
@@ -767,7 +767,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
+                        "name":  "spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
                         "count":  29,
                         "images":  [
                                        {
@@ -918,7 +918,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw",
+                        "name":  "spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw",
                         "count":  31,
                         "images":  [
                                        {
@@ -1079,7 +1079,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
+                        "name":  "spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
                         "count":  27,
                         "images":  [
                                        {
@@ -1220,7 +1220,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw",
+                        "name":  "spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw",
                         "count":  29,
                         "images":  [
                                        {
@@ -1371,7 +1371,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
+                        "name":  "spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
                         "count":  28,
                         "images":  [
                                        {
@@ -1517,7 +1517,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_outdoor_day_skatepark_1/covariance_metrics_latest/rpe_translation_m/overlay_raw",
+                        "name":  "spot_outdoor_day_skatepark_1/covariance_metrics_latest/rpe_translation_m/overlay_raw",
                         "count":  16,
                         "images":  [
                                        {
@@ -1603,7 +1603,7 @@
                                    ]
                     },
                     {
-                        "name":  "rpe_analysis_individual/spot_outdoor_day_skatepark_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
+                        "name":  "spot_outdoor_day_skatepark_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
                         "count":  15,
                         "images":  [
                                        {

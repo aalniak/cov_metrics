@@ -338,12 +338,15 @@ input {
   display: grid;
   gap: 14px;
   min-width: 0;
+  width: 100%;
+  max-width: 100%;
   padding: 14px;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   background: rgba(255, 255, 255, 0.58);
   overflow: hidden;
   text-align: left;
+  white-space: normal;
   cursor: pointer;
   transition:
     transform 220ms ease,
@@ -393,17 +396,23 @@ input {
 }
 
 .thumb-meta h3 {
+  display: block;
   margin: 0;
   font-size: 1rem;
   line-height: 1.35;
+  white-space: normal;
   overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .thumb-meta p {
+  display: block;
   margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
+  white-space: normal;
   overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .lightbox {

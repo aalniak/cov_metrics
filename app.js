@@ -39,6 +39,14 @@ function getFolderParts(folderName) {
   return folderName.split("/").filter(Boolean);
 }
 
+function getSequenceOverlayParts(parts) {
+  if (parts[0] === "rpe_analysis_individual") {
+    return parts.slice(1);
+  }
+
+  return parts;
+}
+
 function prettifySegment(segment) {
   return segment
     .replace(/^covariance_metrics_/, "")
@@ -46,21 +54,21 @@ function prettifySegment(segment) {
 }
 
 function isSequenceOverlayRawFolder(parts) {
+  const normalizedParts = getSequenceOverlayParts(parts);
   return (
-    parts[0] === "rpe_analysis_individual" &&
-    parts[parts.length - 1] === "overlay_raw" &&
-    parts[parts.length - 2] === "rpe_translation_m" &&
-    parts.length >= 5
+    normalizedParts[normalizedParts.length - 1] === "overlay_raw" &&
+    normalizedParts[normalizedParts.length - 2] === "rpe_translation_m" &&
+    normalizedParts.length >= 4
   );
 }
 
 function getSequenceOverlayRawLabel(folderName) {
-  const parts = getFolderParts(folderName);
-  if (!isSequenceOverlayRawFolder(parts)) {
+  const normalizedParts = getSequenceOverlayParts(getFolderParts(folderName));
+  if (!isSequenceOverlayRawFolder(normalizedParts)) {
     return null;
   }
 
-  return folderAliases[parts[1]] || parts[1];
+  return folderAliases[normalizedParts[0]] || normalizedParts[0];
 }
 
 function getFolderListLabel(folderName) {
@@ -86,7 +94,8 @@ function getFolderLabel(folderName) {
 function getFolderContext(folderName) {
   const parts = getFolderParts(folderName);
   if (isSequenceOverlayRawFolder(parts)) {
-    return `${prettifySegment(parts[2])} / ${prettifySegment(parts[3])} / raw overlays`;
+    const normalizedParts = getSequenceOverlayParts(parts);
+    return `${prettifySegment(normalizedParts[1])} / ${prettifySegment(normalizedParts[2])} / raw overlays`;
   }
 
   return parts
@@ -111,7 +120,8 @@ function folderDescription(folder) {
 
   const parts = getFolderParts(folder.name);
   if (isSequenceOverlayRawFolder(parts)) {
-    return `${folder.images.length} plots • ${prettifySegment(parts[2])} raw overlays`;
+    const normalizedParts = getSequenceOverlayParts(parts);
+    return `${folder.images.length} plots • ${prettifySegment(normalizedParts[1])} raw overlays`;
   }
 
   const firstImage = formatTitle(folder.images[0].file);

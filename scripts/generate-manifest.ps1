@@ -1,6 +1,6 @@
 param(
     [string]$ProjectRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path,
-    [string]$DataRoot = (Join-Path (Resolve-Path (Join-Path $PSScriptRoot "..")).Path "new_data"),
+    [string]$DataRoot = (Join-Path (Resolve-Path (Join-Path $PSScriptRoot "..")).Path "new_data\\rpe_analysis_individual"),
     [string]$Output = (Join-Path (Resolve-Path (Join-Path $PSScriptRoot "..")).Path "manifest.json")
 )
 
@@ -55,7 +55,7 @@ if ($null -eq $totalImages) {
 
 $manifest = [PSCustomObject]@{
     generatedAt = (Get-Date).ToString("o")
-    dataRoot = "new_data"
+    dataRoot = "new_data/rpe_analysis_individual"
     totals = [PSCustomObject]@{
         folders = $folders.Count
         images = $totalImages
