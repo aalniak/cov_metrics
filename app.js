@@ -35,10 +35,52 @@ const elements = {
   nextImage: document.getElementById("nextImage"),
 };
 
+function getFolderParts(folderName) {
+  return folderName.split("/").filter(Boolean);
+}
+
+function prettifySegment(segment) {
+  return segment
+    .replace(/^covariance_metrics_/, "")
+    .replace(/_/g, " ");
+}
+
+function isSequenceOverlayRawFolder(parts) {
+  return (
+    parts[0] === "rpe_analysis_individual" &&
+    parts[parts.length - 1] === "overlay_raw" &&
+    parts[parts.length - 2] === "rpe_translation_m" &&
+    parts.length >= 5
+  );
+}
+
+function getSequenceOverlayRawLabel(folderName) {
+  const parts = getFolderParts(folderName);
+  if (!isSequenceOverlayRawFolder(parts)) {
+    return null;
+  }
+
+  return folderAliases[parts[1]] || parts[1];
+}
+
 function getFolderLabel(folderName) {
-  return folderName
-    .split("/")
-    .filter(Boolean)
+  const sequenceOverlayRawLabel = getSequenceOverlayRawLabel(folderName);
+  if (sequenceOverlayRawLabel) {
+    return sequenceOverlayRawLabel;
+  }
+
+  return getFolderParts(folderName)
+    .map((segment) => folderAliases[segment] || segment)
+    .join(" / ");
+}
+
+function getFolderContext(folderName) {
+  const parts = getFolderParts(folderName);
+  if (isSequenceOverlayRawFolder(parts)) {
+    return `${prettifySegment(parts[2])} / ${prettifySegment(parts[3])} / raw overlays`;
+  }
+
+  return parts
     .map((segment) => folderAliases[segment] || segment)
     .join(" / ");
 }
@@ -59,7 +101,7 @@ function folderDescription(folder) {
   }
 
   const firstImage = formatTitle(folder.images[0].file);
-  return `${folder.images.length} plots in ${getFolderLabel(folder.name)}, starting with ${firstImage}`;
+  return `${folder.images.length} plots from ${getFolderContext(folder.name)}, starting with ${firstImage}`;
 }
 
 function parseHash() {
@@ -146,7 +188,7 @@ function renderGallery() {
   state.visibleImages = visibleImages;
   elements.visibleCount.textContent = String(visibleImages.length);
   const folderLabel = getFolderLabel(selectedFolder.name);
-  elements.folderCaption.textContent = `${selectedFolder.images.length} plots inside ${folderLabel}`;
+  elements.folderCaption.textContent = `${selectedFolder.images.length} plots from ${getFolderContext(selectedFolder.name)}`;
   elements.folderTitle.textContent = `${folderLabel} gallery`;
 
   if (!visibleImages.length) {

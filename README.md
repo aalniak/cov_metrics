@@ -28,7 +28,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\generate-manifest.ps1
 ```
 
 That updates `manifest.json`, which is what the browser reads.
-Each image-containing subfolder under `new_data` becomes its own gallery entry, so nested analysis outputs stay separated instead of being merged into one giant folder.
+Only `rpe_translation_m/overlay_raw` subfolders under `new_data` are indexed, and each of those becomes its own gallery entry.
 
 ## Publish on GitHub Pages
 

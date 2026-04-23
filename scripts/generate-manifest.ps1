@@ -9,8 +9,9 @@ $projectRootPath = (Resolve-Path $ProjectRoot).Path
 $dataRootPath = (Resolve-Path $DataRoot).Path
 
 $candidateDirectories = @(
-    (Get-Item -Path $dataRootPath)
-    Get-ChildItem -Path $dataRootPath -Directory -Recurse | Sort-Object FullName
+    Get-ChildItem -Path $dataRootPath -Directory -Recurse |
+        Where-Object { $_.Name -eq "overlay_raw" -and $_.Parent.Name -eq "rpe_translation_m" } |
+        Sort-Object FullName
 )
 
 $folders = @(
