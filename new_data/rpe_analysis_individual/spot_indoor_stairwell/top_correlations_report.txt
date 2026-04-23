@@ -1,9 +1,0 @@
-Sequence: spot_indoor_stairwell
-
-Oldest frame (covariance_metrics_optimized.csv)
-Translation RPE [m]:
-  No valid correlations.
-
-Latest frame (covariance_metrics_latest.csv)
-Translation RPE [m]:
-  No valid correlations.

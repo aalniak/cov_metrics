@@ -1,14 +1,14 @@
 ﻿{
-    "generatedAt":  "2026-04-23T22:44:59.3119458+03:00",
+    "generatedAt":  "2026-04-23T22:53:12.8134469+03:00",
     "dataRoot":  "new_data/rpe_analysis_individual",
     "totals":  {
                    "folders":  12,
-                   "images":  321
+                   "images":  190
                },
     "folders":  [
                     {
                         "name":  "spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw",
-                        "count":  28,
+                        "count":  16,
                         "images":  [
                                        {
                                            "file":  "01_feature_count_vs_rpe_translation_m_raw.png",
@@ -16,24 +16,9 @@
                                            "size":  365632
                                        },
                                        {
-                                           "file":  "01_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/01_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "size":  446500
-                                       },
-                                       {
-                                           "file":  "02_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/02_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  429611
-                                       },
-                                       {
                                            "file":  "02_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/02_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "size":  278344
-                                       },
-                                       {
-                                           "file":  "03_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/03_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "size":  411543
                                        },
                                        {
                                            "file":  "03_tracked_feature_count_vs_rpe_translation_m_raw.png",
@@ -46,16 +31,6 @@
                                            "size":  417836
                                        },
                                        {
-                                           "file":  "04_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/04_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  427766
-                                       },
-                                       {
-                                           "file":  "05_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/05_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  496985
-                                       },
-                                       {
                                            "file":  "05_long_track_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/05_long_track_count_vs_rpe_translation_m_raw.png",
                                            "size":  408763
@@ -64,11 +39,6 @@
                                            "file":  "06_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/06_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  435071
-                                       },
-                                       {
-                                           "file":  "06_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/06_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  381089
                                        },
                                        {
                                            "file":  "07_avg_parallax_px_vs_rpe_translation_m_raw.png",
@@ -81,16 +51,6 @@
                                            "size":  364856
                                        },
                                        {
-                                           "file":  "08_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/08_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "size":  449531
-                                       },
-                                       {
-                                           "file":  "09_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/09_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "size":  399285
-                                       },
-                                       {
                                            "file":  "09_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/09_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  363664
@@ -99,11 +59,6 @@
                                            "file":  "10_marginalization_flag_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/10_marginalization_flag_vs_rpe_translation_m_raw.png",
                                            "size":  468833
-                                       },
-                                       {
-                                           "file":  "10_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/10_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  376279
                                        },
                                        {
                                            "file":  "11_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
@@ -116,19 +71,9 @@
                                            "size":  395890
                                        },
                                        {
-                                           "file":  "12_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/12_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  406264
-                                       },
-                                       {
                                            "file":  "13_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/13_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
                                            "size":  386417
-                                       },
-                                       {
-                                           "file":  "13_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/13_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "size":  402774
                                        },
                                        {
                                            "file":  "14_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
@@ -141,11 +86,6 @@
                                            "size":  356942
                                        },
                                        {
-                                           "file":  "15_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/15_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "size":  289293
-                                       },
-                                       {
                                            "file":  "16_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_latest/rpe_translation_m/overlay_raw/16_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
                                            "size":  397917
@@ -154,7 +94,7 @@
                     },
                     {
                         "name":  "spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
-                        "count":  28,
+                        "count":  15,
                         "images":  [
                                        {
                                            "file":  "01_feature_count_vs_rpe_translation_m_raw.png",
@@ -162,19 +102,9 @@
                                            "size":  347743
                                        },
                                        {
-                                           "file":  "01_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/01_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  373185
-                                       },
-                                       {
                                            "file":  "02_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/02_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
                                            "size":  317597
-                                       },
-                                       {
-                                           "file":  "03_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/03_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "size":  395559
                                        },
                                        {
                                            "file":  "03_reprojection_sample_count_vs_rpe_translation_m_raw.png",
@@ -187,24 +117,9 @@
                                            "size":  346487
                                        },
                                        {
-                                           "file":  "04_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/04_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "size":  288813
-                                       },
-                                       {
-                                           "file":  "05_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/05_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "size":  371766
-                                       },
-                                       {
                                            "file":  "05_outlier_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/05_outlier_count_vs_rpe_translation_m_raw.png",
                                            "size":  323050
-                                       },
-                                       {
-                                           "file":  "06_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/06_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "size":  440131
                                        },
                                        {
                                            "file":  "06_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
@@ -217,34 +132,14 @@
                                            "size":  356860
                                        },
                                        {
-                                           "file":  "07_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/07_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  424755
-                                       },
-                                       {
-                                           "file":  "08_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/08_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "size":  385817
-                                       },
-                                       {
                                            "file":  "08_long_track_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/08_long_track_count_vs_rpe_translation_m_raw.png",
                                            "size":  392484
                                        },
                                        {
-                                           "file":  "09_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/09_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  421657
-                                       },
-                                       {
                                            "file":  "09_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/09_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
                                            "size":  366292
-                                       },
-                                       {
-                                           "file":  "10_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/10_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "size":  411800
                                        },
                                        {
                                            "file":  "10_tracked_feature_count_vs_rpe_translation_m_raw.png",
@@ -257,34 +152,14 @@
                                            "size":  388674
                                        },
                                        {
-                                           "file":  "11_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/11_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  397154
-                                       },
-                                       {
                                            "file":  "12_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/12_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "size":  334414
                                        },
                                        {
-                                           "file":  "12_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/12_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  359539
-                                       },
-                                       {
                                            "file":  "13_avg_parallax_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/13_avg_parallax_px_vs_rpe_translation_m_raw.png",
                                            "size":  436621
-                                       },
-                                       {
-                                           "file":  "13_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/13_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "size":  447132
-                                       },
-                                       {
-                                           "file":  "14_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_hard/covariance_metrics_optimized/rpe_translation_m/overlay_raw/14_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  379190
                                        },
                                        {
                                            "file":  "14_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
@@ -300,22 +175,12 @@
                     },
                     {
                         "name":  "spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw",
-                        "count":  30,
+                        "count":  16,
                         "images":  [
-                                       {
-                                           "file":  "01_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/01_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "size":  315265
-                                       },
                                        {
                                            "file":  "01_tracked_feature_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/01_tracked_feature_count_vs_rpe_translation_m_raw.png",
                                            "size":  329704
-                                       },
-                                       {
-                                           "file":  "02_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/02_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  299466
                                        },
                                        {
                                            "file":  "02_new_feature_count_vs_rpe_translation_m_raw.png",
@@ -328,34 +193,14 @@
                                            "size":  341026
                                        },
                                        {
-                                           "file":  "03_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/03_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "size":  270187
-                                       },
-                                       {
                                            "file":  "04_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/04_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "size":  266983
                                        },
                                        {
-                                           "file":  "04_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/04_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  358205
-                                       },
-                                       {
-                                           "file":  "05_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/05_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "size":  315666
-                                       },
-                                       {
                                            "file":  "05_long_track_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/05_long_track_count_vs_rpe_translation_m_raw.png",
                                            "size":  370740
-                                       },
-                                       {
-                                           "file":  "06_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/06_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  312862
                                        },
                                        {
                                            "file":  "06_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
@@ -373,19 +218,9 @@
                                            "size":  362090
                                        },
                                        {
-                                           "file":  "08_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/08_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  318704
-                                       },
-                                       {
                                            "file":  "09_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/09_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
                                            "size":  357478
-                                       },
-                                       {
-                                           "file":  "09_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/09_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "size":  295272
                                        },
                                        {
                                            "file":  "10_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
@@ -393,19 +228,9 @@
                                            "size":  364283
                                        },
                                        {
-                                           "file":  "10_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/10_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  312325
-                                       },
-                                       {
                                            "file":  "11_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/11_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  333550
-                                       },
-                                       {
-                                           "file":  "11_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/11_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "size":  215424
                                        },
                                        {
                                            "file":  "12_marginalization_flag_vs_rpe_translation_m_raw.png",
@@ -413,34 +238,14 @@
                                            "size":  313737
                                        },
                                        {
-                                           "file":  "12_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/12_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "size":  232550
-                                       },
-                                       {
                                            "file":  "13_outlier_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/13_outlier_count_vs_rpe_translation_m_raw.png",
                                            "size":  350881
                                        },
                                        {
-                                           "file":  "13_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/13_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "size":  358703
-                                       },
-                                       {
                                            "file":  "14_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/14_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "size":  295246
-                                       },
-                                       {
-                                           "file":  "14_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/14_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  308151
-                                       },
-                                       {
-                                           "file":  "15_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_latest/rpe_translation_m/overlay_raw/15_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  263812
                                        },
                                        {
                                            "file":  "15_feature_count_vs_rpe_translation_m_raw.png",
@@ -456,13 +261,8 @@
                     },
                     {
                         "name":  "spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
-                        "count":  29,
+                        "count":  19,
                         "images":  [
-                                       {
-                                           "file":  "01_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/01_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "size":  222485
-                                       },
                                        {
                                            "file":  "01_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/01_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
@@ -472,11 +272,6 @@
                                            "file":  "02_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/02_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "size":  327120
-                                       },
-                                       {
-                                           "file":  "02_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/02_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "size":  226670
                                        },
                                        {
                                            "file":  "03_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
@@ -499,11 +294,6 @@
                                            "size":  421195
                                        },
                                        {
-                                           "file":  "05_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/05_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  304965
-                                       },
-                                       {
                                            "file":  "05_tracked_feature_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/05_tracked_feature_count_vs_rpe_translation_m_raw.png",
                                            "size":  409925
@@ -524,34 +314,14 @@
                                            "size":  425860
                                        },
                                        {
-                                           "file":  "07_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/07_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  336597
-                                       },
-                                       {
-                                           "file":  "08_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/08_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "size":  349168
-                                       },
-                                       {
                                            "file":  "08_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/08_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  401843
                                        },
                                        {
-                                           "file":  "09_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/09_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "size":  300118
-                                       },
-                                       {
                                            "file":  "09_long_track_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/09_long_track_count_vs_rpe_translation_m_raw.png",
                                            "size":  429407
-                                       },
-                                       {
-                                           "file":  "10_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/10_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  277126
                                        },
                                        {
                                            "file":  "10_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
@@ -569,11 +339,6 @@
                                            "size":  285361
                                        },
                                        {
-                                           "file":  "12_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/12_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "size":  328298
-                                       },
-                                       {
                                            "file":  "12_outlier_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/12_outlier_count_vs_rpe_translation_m_raw.png",
                                            "size":  462116
@@ -584,19 +349,9 @@
                                            "size":  375614
                                        },
                                        {
-                                           "file":  "13_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/13_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  368196
-                                       },
-                                       {
                                            "file":  "14_feature_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/14_feature_count_vs_rpe_translation_m_raw.png",
                                            "size":  422677
-                                       },
-                                       {
-                                           "file":  "14_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_forest_road_1/covariance_metrics_optimized/rpe_translation_m/overlay_raw/14_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  302673
                                        },
                                        {
                                            "file":  "15_avg_parallax_px_vs_rpe_translation_m_raw.png",
@@ -607,22 +362,12 @@
                     },
                     {
                         "name":  "spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw",
-                        "count":  31,
+                        "count":  16,
                         "images":  [
-                                       {
-                                           "file":  "01_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/01_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  560211
-                                       },
                                        {
                                            "file":  "01_marginalization_flag_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/01_marginalization_flag_vs_rpe_translation_m_raw.png",
                                            "size":  548645
-                                       },
-                                       {
-                                           "file":  "02_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/02_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "size":  428696
                                        },
                                        {
                                            "file":  "02_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
@@ -630,19 +375,9 @@
                                            "size":  442456
                                        },
                                        {
-                                           "file":  "03_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/03_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  410425
-                                       },
-                                       {
                                            "file":  "03_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/03_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
                                            "size":  407322
-                                       },
-                                       {
-                                           "file":  "04_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/04_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "size":  426249
                                        },
                                        {
                                            "file":  "04_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
@@ -650,19 +385,9 @@
                                            "size":  512998
                                        },
                                        {
-                                           "file":  "05_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/05_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "size":  369486
-                                       },
-                                       {
                                            "file":  "05_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/05_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "size":  368209
-                                       },
-                                       {
-                                           "file":  "06_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/06_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "size":  282148
                                        },
                                        {
                                            "file":  "06_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
@@ -675,24 +400,9 @@
                                            "size":  467382
                                        },
                                        {
-                                           "file":  "07_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/07_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "size":  280841
-                                       },
-                                       {
                                            "file":  "08_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/08_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
                                            "size":  406556
-                                       },
-                                       {
-                                           "file":  "08_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/08_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  438510
-                                       },
-                                       {
-                                           "file":  "09_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/09_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  378063
                                        },
                                        {
                                            "file":  "09_outlier_count_vs_rpe_translation_m_raw.png",
@@ -705,24 +415,9 @@
                                            "size":  406592
                                        },
                                        {
-                                           "file":  "10_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/10_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "size":  390528
-                                       },
-                                       {
                                            "file":  "11_avg_parallax_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/11_avg_parallax_px_vs_rpe_translation_m_raw.png",
                                            "size":  551936
-                                       },
-                                       {
-                                           "file":  "11_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/11_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "size":  371611
-                                       },
-                                       {
-                                           "file":  "12_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/12_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  343595
                                        },
                                        {
                                            "file":  "12_feature_count_vs_rpe_translation_m_raw.png",
@@ -730,19 +425,9 @@
                                            "size":  386100
                                        },
                                        {
-                                           "file":  "13_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/13_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  483327
-                                       },
-                                       {
                                            "file":  "13_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/13_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  392525
-                                       },
-                                       {
-                                           "file":  "14_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/14_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "size":  506053
                                        },
                                        {
                                            "file":  "14_tracked_feature_count_vs_rpe_translation_m_raw.png",
@@ -755,11 +440,6 @@
                                            "size":  438618
                                        },
                                        {
-                                           "file":  "15_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/15_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  370891
-                                       },
-                                       {
                                            "file":  "16_long_track_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/16_long_track_count_vs_rpe_translation_m_raw.png",
                                            "size":  444018
@@ -768,22 +448,12 @@
                     },
                     {
                         "name":  "spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
-                        "count":  29,
+                        "count":  15,
                         "images":  [
-                                       {
-                                           "file":  "01_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/01_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "size":  396762
-                                       },
                                        {
                                            "file":  "01_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/01_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
                                            "size":  350400
-                                       },
-                                       {
-                                           "file":  "02_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/02_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  378851
                                        },
                                        {
                                            "file":  "02_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
@@ -791,19 +461,9 @@
                                            "size":  429497
                                        },
                                        {
-                                           "file":  "03_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/03_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "size":  397201
-                                       },
-                                       {
                                            "file":  "03_tracked_feature_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/03_tracked_feature_count_vs_rpe_translation_m_raw.png",
                                            "size":  416627
-                                       },
-                                       {
-                                           "file":  "04_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/04_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "size":  349198
                                        },
                                        {
                                            "file":  "04_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
@@ -816,16 +476,6 @@
                                            "size":  367529
                                        },
                                        {
-                                           "file":  "05_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/05_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "size":  271488
-                                       },
-                                       {
-                                           "file":  "06_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/06_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  425794
-                                       },
-                                       {
                                            "file":  "06_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/06_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  370390
@@ -836,34 +486,14 @@
                                            "size":  440828
                                        },
                                        {
-                                           "file":  "07_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/07_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "size":  259850
-                                       },
-                                       {
                                            "file":  "08_long_track_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/08_long_track_count_vs_rpe_translation_m_raw.png",
                                            "size":  413221
                                        },
                                        {
-                                           "file":  "08_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/08_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  386313
-                                       },
-                                       {
                                            "file":  "09_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/09_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "size":  355013
-                                       },
-                                       {
-                                           "file":  "09_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/09_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "size":  425470
-                                       },
-                                       {
-                                           "file":  "10_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/10_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  324948
                                        },
                                        {
                                            "file":  "10_outlier_count_vs_rpe_translation_m_raw.png",
@@ -876,19 +506,9 @@
                                            "size":  376904
                                        },
                                        {
-                                           "file":  "11_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/11_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  338944
-                                       },
-                                       {
                                            "file":  "12_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/12_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
                                            "size":  404031
-                                       },
-                                       {
-                                           "file":  "12_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/12_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "size":  355119
                                        },
                                        {
                                            "file":  "13_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
@@ -896,19 +516,9 @@
                                            "size":  363438
                                        },
                                        {
-                                           "file":  "13_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/13_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  337578
-                                       },
-                                       {
                                            "file":  "14_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/14_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "size":  389973
-                                       },
-                                       {
-                                           "file":  "14_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_building_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/14_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "size":  325087
                                        },
                                        {
                                            "file":  "15_avg_parallax_px_vs_rpe_translation_m_raw.png",
@@ -919,22 +529,12 @@
                     },
                     {
                         "name":  "spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw",
-                        "count":  31,
+                        "count":  16,
                         "images":  [
                                        {
                                            "file":  "01_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/01_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "size":  432052
-                                       },
-                                       {
-                                           "file":  "01_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/01_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  580433
-                                       },
-                                       {
-                                           "file":  "02_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/02_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  421651
                                        },
                                        {
                                            "file":  "02_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
@@ -947,16 +547,6 @@
                                            "size":  418999
                                        },
                                        {
-                                           "file":  "03_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/03_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "size":  433593
-                                       },
-                                       {
-                                           "file":  "04_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/04_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "size":  442649
-                                       },
-                                       {
                                            "file":  "04_outlier_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/04_outlier_count_vs_rpe_translation_m_raw.png",
                                            "size":  469958
@@ -967,24 +557,9 @@
                                            "size":  410912
                                        },
                                        {
-                                           "file":  "05_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/05_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  485160
-                                       },
-                                       {
                                            "file":  "06_marginalization_flag_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/06_marginalization_flag_vs_rpe_translation_m_raw.png",
                                            "size":  546936
-                                       },
-                                       {
-                                           "file":  "06_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/06_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  444238
-                                       },
-                                       {
-                                           "file":  "07_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/07_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "size":  494238
                                        },
                                        {
                                            "file":  "07_new_feature_count_vs_rpe_translation_m_raw.png",
@@ -992,29 +567,14 @@
                                            "size":  497506
                                        },
                                        {
-                                           "file":  "08_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/08_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  476931
-                                       },
-                                       {
                                            "file":  "08_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/08_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  464519
                                        },
                                        {
-                                           "file":  "09_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/09_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "size":  345676
-                                       },
-                                       {
                                            "file":  "09_tracked_feature_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/09_tracked_feature_count_vs_rpe_translation_m_raw.png",
                                            "size":  452171
-                                       },
-                                       {
-                                           "file":  "10_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/10_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "size":  502999
                                        },
                                        {
                                            "file":  "10_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
@@ -1027,16 +587,6 @@
                                            "size":  438030
                                        },
                                        {
-                                           "file":  "11_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/11_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  471399
-                                       },
-                                       {
-                                           "file":  "12_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/12_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "size":  357180
-                                       },
-                                       {
                                            "file":  "12_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/12_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "size":  318051
@@ -1047,24 +597,9 @@
                                            "size":  544810
                                        },
                                        {
-                                           "file":  "13_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/13_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  429340
-                                       },
-                                       {
-                                           "file":  "14_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/14_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "size":  434877
-                                       },
-                                       {
                                            "file":  "14_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/14_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  399863
-                                       },
-                                       {
-                                           "file":  "15_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_latest/rpe_translation_m/overlay_raw/15_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "size":  542444
                                        },
                                        {
                                            "file":  "15_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
@@ -1080,32 +615,17 @@
                     },
                     {
                         "name":  "spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
-                        "count":  27,
+                        "count":  15,
                         "images":  [
-                                       {
-                                           "file":  "01_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/01_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  364824
-                                       },
                                        {
                                            "file":  "01_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/01_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "size":  268252
                                        },
                                        {
-                                           "file":  "02_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/02_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  426867
-                                       },
-                                       {
                                            "file":  "02_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/02_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
                                            "size":  332674
-                                       },
-                                       {
-                                           "file":  "03_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/03_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "size":  381747
                                        },
                                        {
                                            "file":  "03_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
@@ -1123,19 +643,9 @@
                                            "size":  346238
                                        },
                                        {
-                                           "file":  "05_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/05_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  372223
-                                       },
-                                       {
                                            "file":  "06_feature_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/06_feature_count_vs_rpe_translation_m_raw.png",
                                            "size":  333212
-                                       },
-                                       {
-                                           "file":  "06_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/06_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "size":  299750
                                        },
                                        {
                                            "file":  "07_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
@@ -1143,24 +653,9 @@
                                            "size":  324615
                                        },
                                        {
-                                           "file":  "07_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/07_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "size":  300511
-                                       },
-                                       {
                                            "file":  "08_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/08_latest_frame_active_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  408316
-                                       },
-                                       {
-                                           "file":  "08_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/08_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "size":  459937
-                                       },
-                                       {
-                                           "file":  "09_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/09_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "size":  384025
                                        },
                                        {
                                            "file":  "09_tracked_feature_count_vs_rpe_translation_m_raw.png",
@@ -1168,29 +663,14 @@
                                            "size":  395978
                                        },
                                        {
-                                           "file":  "10_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/10_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  371070
-                                       },
-                                       {
                                            "file":  "10_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/10_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  339314
                                        },
                                        {
-                                           "file":  "11_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/11_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "size":  434675
-                                       },
-                                       {
                                            "file":  "11_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/11_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
                                            "size":  371864
-                                       },
-                                       {
-                                           "file":  "12_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/12_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  416716
                                        },
                                        {
                                            "file":  "12_outlier_count_vs_rpe_translation_m_raw.png",
@@ -1208,11 +688,6 @@
                                            "size":  404304
                                        },
                                        {
-                                           "file":  "14_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/14_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  402632
-                                       },
-                                       {
                                            "file":  "15_avg_parallax_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_indoor_stairs/covariance_metrics_optimized/rpe_translation_m/overlay_raw/15_avg_parallax_px_vs_rpe_translation_m_raw.png",
                                            "size":  446261
@@ -1221,13 +696,8 @@
                     },
                     {
                         "name":  "spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw",
-                        "count":  29,
+                        "count":  16,
                         "images":  [
-                                       {
-                                           "file":  "01_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/01_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "size":  388186
-                                       },
                                        {
                                            "file":  "01_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/01_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
@@ -1239,24 +709,9 @@
                                            "size":  345462
                                        },
                                        {
-                                           "file":  "02_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/02_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "size":  357701
-                                       },
-                                       {
-                                           "file":  "03_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/03_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  371232
-                                       },
-                                       {
                                            "file":  "03_new_feature_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/03_new_feature_count_vs_rpe_translation_m_raw.png",
                                            "size":  371220
-                                       },
-                                       {
-                                           "file":  "04_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/04_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "size":  384046
                                        },
                                        {
                                            "file":  "04_tracked_feature_count_vs_rpe_translation_m_raw.png",
@@ -1269,19 +724,9 @@
                                            "size":  378709
                                        },
                                        {
-                                           "file":  "06_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/06_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  339184
-                                       },
-                                       {
                                            "file":  "06_long_track_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/06_long_track_count_vs_rpe_translation_m_raw.png",
                                            "size":  387241
-                                       },
-                                       {
-                                           "file":  "07_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/07_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "size":  367611
                                        },
                                        {
                                            "file":  "07_reprojection_sample_count_vs_rpe_translation_m_raw.png",
@@ -1294,19 +739,9 @@
                                            "size":  371771
                                        },
                                        {
-                                           "file":  "08_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/08_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  403492
-                                       },
-                                       {
                                            "file":  "09_avg_parallax_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/09_avg_parallax_px_vs_rpe_translation_m_raw.png",
                                            "size":  409362
-                                       },
-                                       {
-                                           "file":  "09_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/09_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  358363
                                        },
                                        {
                                            "file":  "10_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
@@ -1314,24 +749,9 @@
                                            "size":  367955
                                        },
                                        {
-                                           "file":  "10_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/10_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  395171
-                                       },
-                                       {
                                            "file":  "11_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/11_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "size":  334519
-                                       },
-                                       {
-                                           "file":  "11_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/11_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "size":  376094
-                                       },
-                                       {
-                                           "file":  "12_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/12_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  367495
                                        },
                                        {
                                            "file":  "12_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
@@ -1344,11 +764,6 @@
                                            "size":  383290
                                        },
                                        {
-                                           "file":  "13_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/13_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "size":  369223
-                                       },
-                                       {
                                            "file":  "14_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/14_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
                                            "size":  371135
@@ -1359,11 +774,6 @@
                                            "size":  406918
                                        },
                                        {
-                                           "file":  "15_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/15_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
-                                           "size":  264026
-                                       },
-                                       {
                                            "file":  "16_marginalization_flag_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_latest/rpe_translation_m/overlay_raw/16_marginalization_flag_vs_rpe_translation_m_raw.png",
                                            "size":  449111
@@ -1372,7 +782,7 @@
                     },
                     {
                         "name":  "spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw",
-                        "count":  28,
+                        "count":  15,
                         "images":  [
                                        {
                                            "file":  "01_submit_to_publish_latency_sec_vs_rpe_translation_m_raw.png",
@@ -1380,29 +790,14 @@
                                            "size":  332427
                                        },
                                        {
-                                           "file":  "02_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/02_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
-                                           "size":  257033
-                                       },
-                                       {
                                            "file":  "02_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/02_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
                                            "size":  278210
                                        },
                                        {
-                                           "file":  "03_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/03_avg_parallax_px_vs_rpe_translation_m_raw.png",
-                                           "size":  344624
-                                       },
-                                       {
                                            "file":  "03_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/03_reprojection_sample_count_vs_rpe_translation_m_raw.png",
                                            "size":  346067
-                                       },
-                                       {
-                                           "file":  "04_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/04_latest_frame_active_reprojection_sum_px_vs_rpe_translation_m_raw.png",
-                                           "size":  353038
                                        },
                                        {
                                            "file":  "04_outlier_count_vs_rpe_translation_m_raw.png",
@@ -1415,24 +810,9 @@
                                            "size":  389185
                                        },
                                        {
-                                           "file":  "05_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/05_new_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  392057
-                                       },
-                                       {
-                                           "file":  "06_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/06_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  333762
-                                       },
-                                       {
                                            "file":  "06_new_feature_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/06_new_feature_count_vs_rpe_translation_m_raw.png",
                                            "size":  368720
-                                       },
-                                       {
-                                           "file":  "07_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/07_reprojection_sample_count_vs_rpe_translation_m_raw.png",
-                                           "size":  335009
                                        },
                                        {
                                            "file":  "07_tracked_feature_count_vs_rpe_translation_m_raw.png",
@@ -1440,19 +820,9 @@
                                            "size":  378977
                                        },
                                        {
-                                           "file":  "08_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/08_avg_reprojection_error_px_vs_rpe_translation_m_raw.png",
-                                           "size":  332067
-                                       },
-                                       {
                                            "file":  "08_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/08_max_reprojection_error_px_vs_rpe_translation_m_raw.png",
                                            "size":  345694
-                                       },
-                                       {
-                                           "file":  "09_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/09_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
-                                           "size":  377613
                                        },
                                        {
                                            "file":  "09_long_track_count_vs_rpe_translation_m_raw.png",
@@ -1465,16 +835,6 @@
                                            "size":  369808
                                        },
                                        {
-                                           "file":  "10_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/10_long_track_count_vs_rpe_translation_m_raw.png",
-                                           "size":  351970
-                                       },
-                                       {
-                                           "file":  "11_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/11_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  359566
-                                       },
-                                       {
                                            "file":  "11_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/11_latest_frame_active_reprojection_mean_px_vs_rpe_translation_m_raw.png",
                                            "size":  363199
@@ -1485,24 +845,9 @@
                                            "size":  380808
                                        },
                                        {
-                                           "file":  "12_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/12_tracked_feature_count_vs_rpe_translation_m_raw.png",
-                                           "size":  381285
-                                       },
-                                       {
                                            "file":  "13_feature_count_vs_rpe_translation_m_raw.png",
                                            "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/13_feature_count_vs_rpe_translation_m_raw.png",
                                            "size":  355728
-                                       },
-                                       {
-                                           "file":  "13_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/13_pose_rotation_cov_trace_rad2_vs_rpe_translation_m_raw.png",
-                                           "size":  363689
-                                       },
-                                       {
-                                           "file":  "14_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "path":  "new_data/rpe_analysis_individual/spot_outdoor_day_penno_short_loop/covariance_metrics_optimized/rpe_translation_m/overlay_raw/14_outlier_count_vs_rpe_translation_m_raw.png",
-                                           "size":  356827
                                        },
                                        {
                                            "file":  "14_pose_position_cov_trace_m2_vs_rpe_translation_m_raw.png",
